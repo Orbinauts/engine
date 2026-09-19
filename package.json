@@ -1,6 +1,6 @@
 {
   "name": "@orbinauts/engine",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Satellite positions, passes and visibility from orbital elements, in TypeScript, checked against Skyfield",
   "keywords": [
     "satellite",

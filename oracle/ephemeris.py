@@ -186,7 +186,9 @@ def main() -> None:
         geocentric = state(moment)
         x, y, z = geocentric.position.km
         vx, vy, vz = geocentric.velocity.km_per_s
-        lines.append(f"{oem_time(moment)} {x:.9f} {y:.9f} {z:.9f} {vx:.12f} {vy:.12f} {vz:.12f}")
+        # Millimetres and millimetres per second: finer digits differ between
+        # platforms' floating point, and the weekly regeneration must match.
+        lines.append(f"{oem_time(moment)} {x:.6f} {y:.6f} {z:.6f} {vx:.6f} {vy:.6f} {vz:.6f}")
 
     positions = []
     for moment in INSTANTS:

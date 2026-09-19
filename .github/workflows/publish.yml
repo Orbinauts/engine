@@ -134,8 +134,9 @@ jobs:
           mkdir smoke
           cd smoke
           echo '{ "name": "smoke", "private": true, "type": "module" }' > package.json
-          # The registry can take a moment to serve a version it has just accepted.
-          for attempt in 1 2 3 4 5 6 7 8 9 10; do
+          # The registry can take minutes to serve a version it has just accepted
+          # (more than five for 0.1.0), so this waits up to twenty.
+          for attempt in $(seq 1 40); do
             if npm install --no-audit --no-fund "@orbinauts/engine@$VERSION"; then exit 0; fi
             echo "attempt $attempt failed; waiting"
             sleep 30

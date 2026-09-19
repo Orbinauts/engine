@@ -2,6 +2,15 @@
 
 Every notable change to `@orbinauts/engine`, newest first. The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and the package follows [semantic versioning](https://semver.org/spec/v2.0.0.html): until 1.0.0, a minor version may change the public interface, and the entry says how.
 
+## [0.1.1] - 2026-09-19
+
+No change to the library's code; this release carries the repository's fixes.
+
+### Fixed
+
+- The Oracle writes the synthetic ephemeris fixture in millimetres and millimetres per second, so a regeneration on Linux matches one on macOS.
+- The publish workflow waits up to twenty minutes for the registry to serve a new version before its smoke test.
+
 ## [0.1.0] - 2026-09-19
 
 The first release.
@@ -18,4 +27,5 @@ The first release.
 - Great-circle geometry on the sphere: separation, bearing and destination.
 - The Oracle: Skyfield scripts, with a lockfile, that regenerate every fixture the tests compare against.
 
+[0.1.1]: https://github.com/Orbinauts/engine/releases/tag/v0.1.1
 [0.1.0]: https://github.com/Orbinauts/engine/releases/tag/v0.1.0
