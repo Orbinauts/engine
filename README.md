@@ -2,6 +2,8 @@
 
 Satellite positions, passes and visibility from orbital elements, in TypeScript, checked against Skyfield.
 
+The engine behind [Orbinauts](https://orbinauts.com), the live satellite map and pass predictions.
+
 [satellite.js](https://github.com/shashwatak/satellite-js) propagates a satellite with SGP4 and stops there. This library takes the next steps: where the satellite is over the ground, every pass over an observer with rise, culmination and set, whether it is in the Earth's shadow, how bright it looks, and which passes a person can actually see. Every answer is compared with [Skyfield](https://rhodesmill.org/skyfield/) on the same inputs, within the tolerances [listed below](#how-far-to-trust-it).
 
 - Positions: the point beneath the satellite, its altitude and speed, from OMM or two-line Elements, or interpolated from a CCSDS OEM ephemeris.

@@ -61,7 +61,7 @@ interface Rule {
 }
 
 /** Every `@orbinauts` or `Orbinauts` a file may carry: the package's own names. */
-const OWN_NAMES = /@orbinauts\/engine|Orbinauts\/engine|orbinauts-engine-oracle|ORBINAUTS ENGINE ORACLE|Orbinauts contributors/g;
+const OWN_NAMES = /@orbinauts\/engine|Orbinauts\/engine|orbinauts-engine-oracle|ORBINAUTS ENGINE ORACLE|Orbinauts contributors|https:\/\/orbinauts\.com/g;
 
 /**
  * Space-Track may be named as a server of a data format ("the OMM as

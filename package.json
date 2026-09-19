@@ -1,6 +1,6 @@
 {
   "name": "@orbinauts/engine",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Satellite positions, passes and visibility from orbital elements, in TypeScript, checked against Skyfield",
   "keywords": [
     "satellite",
@@ -15,7 +15,7 @@
     "iss",
     "typescript"
   ],
-  "homepage": "https://github.com/Orbinauts/engine#readme",
+  "homepage": "https://orbinauts.com",
   "bugs": "https://github.com/Orbinauts/engine/issues",
   "repository": {
     "type": "git",
