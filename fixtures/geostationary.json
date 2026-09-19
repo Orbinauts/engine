@@ -1,0 +1,88 @@
+{
+  "generatedBy": "oracle/geostationary.py with Skyfield",
+  "grid": {
+    "stepDegrees": 10,
+    "edgeMarginDegrees": 3.0
+  },
+  "subjects": [
+    {
+      "elements": "goes-19-2026-09-19",
+      "geostationary": true,
+      "from": "2026-09-19T11:28:53.488Z",
+      "subPoint": {
+        "days": 2,
+        "stepMinutes": 1,
+        "latitudeSpanDegrees": 0.0404,
+        "longitudeSpanDegrees": 0.0084
+      },
+      "horizon": {
+        "days": 10,
+        "stepMinutes": 15,
+        "observers": 568,
+        "seeingACrossing": 0
+      }
+    },
+    {
+      "elements": "meteosat-12-2026-09-19",
+      "geostationary": true,
+      "from": "2026-09-19T08:24:33.664Z",
+      "subPoint": {
+        "days": 2,
+        "stepMinutes": 1,
+        "latitudeSpanDegrees": 1.4425,
+        "longitudeSpanDegrees": 0.0908
+      },
+      "horizon": {
+        "days": 10,
+        "stepMinutes": 15,
+        "observers": 556,
+        "seeingACrossing": 0
+      }
+    },
+    {
+      "elements": "hispasat-30w-6-2026-09-19",
+      "geostationary": true,
+      "from": "2026-09-19T08:16:34.430Z",
+      "subPoint": {
+        "days": 2,
+        "stepMinutes": 1,
+        "latitudeSpanDegrees": 0.0728,
+        "longitudeSpanDegrees": 0.0763
+      },
+      "horizon": {
+        "days": 10,
+        "stepMinutes": 15,
+        "observers": 556,
+        "seeingACrossing": 0
+      }
+    },
+    {
+      "elements": "beidou-3-igso-1-2026-09-18",
+      "geostationary": false,
+      "from": "2026-09-18T20:29:56.779Z",
+      "subPoint": {
+        "days": 2,
+        "stepMinutes": 1,
+        "latitudeSpanDegrees": 117.7027,
+        "longitudeSpanDegrees": 37.4548
+      },
+      "horizon": {
+        "days": 10,
+        "stepMinutes": 15,
+        "observers": 580,
+        "seeingACrossing": 453
+      }
+    }
+  ],
+  "atTheBound": {
+    "elements": "goes-19-2026-09-19",
+    "inclinationDegrees": 5.0,
+    "days": 10,
+    "stepMinutes": 15,
+    "subPointLatitudeSpanDegrees": 9.9809,
+    "observers": 612,
+    "seeingACrossing": 56,
+    "highestCrossingElevationDegrees": 8.15,
+    "visibleMinElevationDegrees": 10.0
+  }
+}

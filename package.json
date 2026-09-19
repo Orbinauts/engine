@@ -1,0 +1,60 @@
+{
+  "name": "@orbinauts/engine",
+  "version": "0.1.0",
+  "description": "Satellite positions, passes and visibility from orbital elements, in TypeScript, checked against Skyfield",
+  "keywords": [
+    "satellite",
+    "satellite-tracking",
+    "sgp4",
+    "omm",
+    "tle",
+    "orbit",
+    "passes",
+    "visible-passes",
+    "ephemeris",
+    "iss",
+    "typescript"
+  ],
+  "homepage": "https://github.com/Orbinauts/engine#readme",
+  "bugs": "https://github.com/Orbinauts/engine/issues",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Orbinauts/engine.git"
+  },
+  "license": "MIT",
+  "type": "module",
+  "sideEffects": false,
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "engines": {
+    "node": ">=22"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "build": "rm -rf dist && tsc -p tsconfig.build.json",
+    "prepack": "npm run build",
+    "test": "vitest run",
+    "docs": "typedoc",
+    "fixtures": "uv run --project oracle --locked oracle/positions.py && uv run --project oracle --locked oracle/passes.py && uv run --project oracle --locked oracle/ephemeris.py && uv run --project oracle --locked oracle/geostationary.py && uv run --project oracle --locked oracle/in-view.py",
+    "typecheck": "tsc --noEmit && tsc -p tsconfig.build.json --noEmit"
+  },
+  "dependencies": {
+    "astronomy-engine": "^2.1.19",
+    "satellite.js": "^7.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^26.4.1",
+    "typedoc": "^0.28.20",
+    "typescript": "^5.9.3",
+    "vitest": "^5.0.0"
+  }
+}

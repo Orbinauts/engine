@@ -1,0 +1,11 @@
+node_modules/
+# What `npm run build` and `npm run docs` write.
+dist/
+reference/
+*.tgz
+# No lockfile: the package is installed by its ranges, as a consumer's
+# project installs it, so CI tests what a consumer gets.
+package-lock.json
+# The Oracle's Python environment, which uv rebuilds from oracle/uv.lock.
+.venv/
+__pycache__/

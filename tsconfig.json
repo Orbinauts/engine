@@ -1,0 +1,21 @@
+{
+  // Standalone, extending nothing: the package's folder is also a repository
+  // of its own, and this file has to hold there as it holds here.
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+    "lib": ["ES2022"],
+    // The tests run on Node and time themselves with its `performance`;
+    // tsconfig.build.json takes Node's types away from the published source.
+    "types": ["node"],
+    "strict": true,
+    "noUncheckedIndexedAccess": true,
+    "verbatimModuleSyntax": true,
+    "isolatedModules": true,
+    "skipLibCheck": true,
+    "resolveJsonModule": true,
+    "noEmit": true
+  },
+  "include": ["src", "test"]
+}

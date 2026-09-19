@@ -1,0 +1,52 @@
+name: Oracle
+
+# Every week the Oracle regenerates every fixture the tests compare against,
+# from the Python environment oracle/uv.lock pins, and the job fails when a
+# file comes out different from the one in the repository: a sign that
+# Skyfield, the SGP4 library under it or the JPL ephemeris changed an answer.
+
+on:
+  schedule:
+    # Tuesdays, early morning UTC.
+    - cron: "37 5 * * 2"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  regenerate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@820762786026740c76f36085b0efc47a31fe5020 # v7.0.0
+        with:
+          node-version: 24
+      # uv installs the Python oracle/.python-version names and the packages oracle/uv.lock pins.
+      - uses: astral-sh/setup-uv@bec219d24cd3e171d82865faccec33120bb574f4 # v10.1.0
+        with:
+          version: "0.11.6"
+          enable-cache: true
+          cache-dependency-glob: oracle/uv.lock
+      # DE421, the JPL ephemeris the Sun's position comes from: about 17 MB, fetched from JPL on a cache miss.
+      # The file never changes, so the key is its name.
+      - uses: actions/cache@55cc8345863c7cc4c66a329aec7e433d2d1c52a9 # v6.1.0
+        with:
+          path: ~/.cache/skyfield
+          key: skyfield-de421
+      # Every script through `uv run --locked`, which fails if the lockfile no longer matches oracle/pyproject.toml.
+      - run: npm run fixtures
+      - name: Compare with the fixtures in the repository
+        run: |
+          set -euo pipefail
+          if [ -n "$(git status --porcelain -- fixtures)" ]; then
+            git status --short -- fixtures
+            git diff --stat -- fixtures
+            git diff -- fixtures > "$RUNNER_TEMP/fixtures.diff"
+            head -n 400 "$RUNNER_TEMP/fixtures.diff"
+            echo "::error::the Oracle wrote fixtures that differ from the repository's"
+            exit 1
+          fi
+          echo "every fixture regenerated unchanged"

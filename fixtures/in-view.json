@@ -1,0 +1,150 @@
+{
+  "generatedBy": "oracle/in-view.py with Skyfield",
+  "edgeMarginDegrees": 1.0,
+  "scenes": [
+    {
+      "key": "madrid",
+      "observer": {
+        "latitude": 40.4168,
+        "longitude": -3.7038,
+        "altitude": 657
+      },
+      "at": "2026-09-19T17:00:00.000Z",
+      "satellites": [
+        {
+          "elements": "navstar-54-2026-09-19",
+          "catalogueNumber": 28190,
+          "elevation": 30.2679,
+          "inView": true
+        },
+        {
+          "elements": "navstar-58-2026-09-19",
+          "catalogueNumber": 29486,
+          "elevation": -31.4488,
+          "inView": false
+        },
+        {
+          "elements": "navstar-69-2026-09-18",
+          "catalogueNumber": 39533,
+          "elevation": -30.3585,
+          "inView": false
+        },
+        {
+          "elements": "navstar-77-2026-09-18",
+          "catalogueNumber": 43873,
+          "elevation": -74.9681,
+          "inView": false
+        },
+        {
+          "elements": "galileo-19-2026-09-17",
+          "catalogueNumber": 43055,
+          "elevation": -27.1564,
+          "inView": false
+        },
+        {
+          "elements": "galileo-31-2026-09-19",
+          "catalogueNumber": 61183,
+          "elevation": 17.53,
+          "inView": true
+        }
+      ],
+      "inView": 2
+    },
+    {
+      "key": "wellington",
+      "observer": {
+        "latitude": -41.2866,
+        "longitude": 174.7756,
+        "altitude": 13
+      },
+      "at": "2026-09-19T17:00:00.000Z",
+      "satellites": [
+        {
+          "elements": "navstar-54-2026-09-19",
+          "catalogueNumber": 28190,
+          "elevation": -50.3501,
+          "inView": false
+        },
+        {
+          "elements": "navstar-58-2026-09-19",
+          "catalogueNumber": 29486,
+          "elevation": 4.4834,
+          "inView": true
+        },
+        {
+          "elements": "navstar-69-2026-09-18",
+          "catalogueNumber": 39533,
+          "elevation": 5.7414,
+          "inView": true
+        },
+        {
+          "elements": "navstar-77-2026-09-18",
+          "catalogueNumber": 43873,
+          "elevation": 64.5548,
+          "inView": true
+        },
+        {
+          "elements": "galileo-19-2026-09-17",
+          "catalogueNumber": 43055,
+          "elevation": 3.908,
+          "inView": true
+        },
+        {
+          "elements": "galileo-31-2026-09-19",
+          "catalogueNumber": 61183,
+          "elevation": -38.8087,
+          "inView": false
+        }
+      ],
+      "inView": 4
+    },
+    {
+      "key": "madrid-seven-hours-later",
+      "observer": {
+        "latitude": 40.4168,
+        "longitude": -3.7038,
+        "altitude": 657
+      },
+      "at": "2026-09-20T00:00:00.000Z",
+      "satellites": [
+        {
+          "elements": "navstar-54-2026-09-19",
+          "catalogueNumber": 28190,
+          "elevation": -76.9443,
+          "inView": false
+        },
+        {
+          "elements": "navstar-58-2026-09-19",
+          "catalogueNumber": 29486,
+          "elevation": 17.1354,
+          "inView": true
+        },
+        {
+          "elements": "navstar-69-2026-09-18",
+          "catalogueNumber": 39533,
+          "elevation": -16.7627,
+          "inView": false
+        },
+        {
+          "elements": "navstar-77-2026-09-18",
+          "catalogueNumber": 43873,
+          "elevation": -11.5293,
+          "inView": false
+        },
+        {
+          "elements": "galileo-19-2026-09-17",
+          "catalogueNumber": 43055,
+          "elevation": -64.2647,
+          "inView": false
+        },
+        {
+          "elements": "galileo-31-2026-09-19",
+          "catalogueNumber": 61183,
+          "elevation": -77.6174,
+          "inView": false
+        }
+      ],
+      "inView": 1
+    }
+  ]
+}

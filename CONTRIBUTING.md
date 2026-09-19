@@ -1,0 +1,3 @@
+# Contributing
+
+Issues and pull requests are welcome, and every pull request is reviewed, but none is merged here as it stands: the maintainers develop the library in their own tree, an accepted patch lands there first, and it ships in the next release, which arrives in this repository as one commit. So keep a change small and focused, and check it the way CI will before you open it: `npm install`, then `npm run typecheck` and `npm test`, which need no Python and no network. A change to what the library computes needs the Oracle's word for it: add or change the scenario in `oracle/`, run `npm run fixtures` (it needs [uv](https://docs.astral.sh/uv/), and downloads JPL's DE421 ephemeris once), and commit the regenerated `fixtures/` with the test that reads them.

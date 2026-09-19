@@ -1,0 +1,5013 @@
+{
+  "generatedBy": "oracle/passes.py with Skyfield",
+  "tolerance": {
+    "timeSeconds": 2.0,
+    "elevationDegrees": 0.1,
+    "azimuthDegrees": 0.5,
+    "sunAltitudeDegrees": 0.05,
+    "magnitude": 0.05,
+    "skyDegreesPerSecond": 1.2
+  },
+  "visiblePass": {
+    "maxSunAltitude": -6.0,
+    "minElevation": 10.0,
+    "faintestMagnitude": 4.0
+  },
+  "elements": {
+    "iss-2008-09-20": {
+      "OBJECT_NAME": "ISS (ZARYA)",
+      "OBJECT_ID": "1998-067A",
+      "EPOCH": "2008-09-20T12:25:40.104192",
+      "MEAN_MOTION": 15.72125391,
+      "ECCENTRICITY": 0.0006703,
+      "INCLINATION": 51.6416,
+      "RA_OF_ASC_NODE": 247.4627,
+      "ARG_OF_PERICENTER": 130.536,
+      "MEAN_ANOMALY": 325.0288,
+      "EPHEMERIS_TYPE": 0,
+      "CLASSIFICATION_TYPE": "U",
+      "NORAD_CAT_ID": 25544,
+      "ELEMENT_SET_NO": 292,
+      "REV_AT_EPOCH": 56353,
+      "BSTAR": -1.1606e-05,
+      "MEAN_MOTION_DOT": -2.182e-05,
+      "MEAN_MOTION_DDOT": 0.0
+    },
+    "iss-2014-01-20": {
+      "OBJECT_NAME": "ISS (ZARYA)",
+      "OBJECT_ID": "1998-067A",
+      "EPOCH": "2014-01-20T22:23:04.000416",
+      "MEAN_MOTION": 15.4981535,
+      "ECCENTRICITY": 0.0003572,
+      "INCLINATION": 51.6498,
+      "RA_OF_ASC_NODE": 109.4756,
+      "ARG_OF_PERICENTER": 55.9686,
+      "MEAN_ANOMALY": 274.8005,
+      "EPHEMERIS_TYPE": 0,
+      "CLASSIFICATION_TYPE": "U",
+      "NORAD_CAT_ID": 25544,
+      "ELEMENT_SET_NO": 508,
+      "REV_AT_EPOCH": 86847,
+      "BSTAR": 0.000182,
+      "MEAN_MOTION_DOT": 9.878e-05,
+      "MEAN_MOTION_DDOT": 0.0
+    },
+    "iss-2026-09-19": {
+      "OBJECT_NAME": "ISS (ZARYA)",
+      "OBJECT_ID": "1998-067A",
+      "EPOCH": "2026-09-19T07:17:41.839008",
+      "MEAN_MOTION": 15.49175317,
+      "ECCENTRICITY": 0.0004815,
+      "INCLINATION": 51.6308,
+      "RA_OF_ASC_NODE": 194.2901,
+      "ARG_OF_PERICENTER": 157.3949,
+      "MEAN_ANOMALY": 202.7252,
+      "EPHEMERIS_TYPE": 0,
+      "CLASSIFICATION_TYPE": "U",
+      "NORAD_CAT_ID": 25544,
+      "ELEMENT_SET_NO": 999,
+      "REV_AT_EPOCH": 58634,
+      "BSTAR": 0.00012007,
+      "MEAN_MOTION_DOT": 6.211e-05,
+      "MEAN_MOTION_DDOT": 0.0
+    },
+    "tiangong-2026-09-19": {
+      "OBJECT_NAME": "CSS (TIANHE)",
+      "OBJECT_ID": "2021-035A",
+      "EPOCH": "2026-09-19T12:20:12.560064",
+      "MEAN_MOTION": 15.6010613,
+      "ECCENTRICITY": 0.0002588,
+      "INCLINATION": 41.4679,
+      "RA_OF_ASC_NODE": 109.276,
+      "ARG_OF_PERICENTER": 291.3321,
+      "MEAN_ANOMALY": 68.7241,
+      "EPHEMERIS_TYPE": 0,
+      "CLASSIFICATION_TYPE": "U",
+      "NORAD_CAT_ID": 48274,
+      "ELEMENT_SET_NO": 999,
+      "REV_AT_EPOCH": 30789,
+      "BSTAR": 0.00019468,
+      "MEAN_MOTION_DOT": 0.00015955,
+      "MEAN_MOTION_DDOT": 0.0
+    },
+    "hubble-2026-09-19": {
+      "OBJECT_NAME": "HST",
+      "OBJECT_ID": "1990-037B",
+      "EPOCH": "2026-09-19T01:27:10.034784",
+      "MEAN_MOTION": 15.31690777,
+      "ECCENTRICITY": 0.00019301,
+      "INCLINATION": 28.4729,
+      "RA_OF_ASC_NODE": 158.5121,
+      "ARG_OF_PERICENTER": 104.6713,
+      "MEAN_ANOMALY": 255.4097,
+      "EPHEMERIS_TYPE": 0,
+      "CLASSIFICATION_TYPE": "U",
+      "NORAD_CAT_ID": 20580,
+      "ELEMENT_SET_NO": 999,
+      "REV_AT_EPOCH": 80297,
+      "BSTAR": 0.00015074651,
+      "MEAN_MOTION_DOT": 4.982e-05,
+      "MEAN_MOTION_DDOT": 0.0
+    },
+    "saramago-2026-09-18": {
+      "OBJECT_NAME": "SARAMAGO",
+      "OBJECT_ID": "2026-067CY",
+      "EPOCH": "2026-09-18T02:32:43.287648",
+      "MEAN_MOTION": 15.213839,
+      "ECCENTRICITY": 0.0009299,
+      "INCLINATION": 97.4681,
+      "RA_OF_ASC_NODE": 218.6928,
+      "ARG_OF_PERICENTER": 52.7448,
+      "MEAN_ANOMALY": 307.4635,
+      "EPHEMERIS_TYPE": 0,
+      "CLASSIFICATION_TYPE": "U",
+      "NORAD_CAT_ID": 100000,
+      "ELEMENT_SET_NO": 999,
+      "REV_AT_EPOCH": 2582,
+      "BSTAR": 0.0003754272,
+      "MEAN_MOTION_DOT": 8.361e-05,
+      "MEAN_MOTION_DDOT": 0.0
+    },
+    "goes-19-2026-09-19": {
+      "OBJECT_NAME": "GOES 19",
+      "OBJECT_ID": "2024-119A",
+      "EPOCH": "2026-09-19T11:28:53.488704",
+      "MEAN_MOTION": 1.00271803,
+      "ECCENTRICITY": 3.2e-05,
+      "INCLINATION": 0.0382,
+      "RA_OF_ASC_NODE": 6.0328,
+      "ARG_OF_PERICENTER": 244.821,
+      "MEAN_ANOMALY": 204.5735,
+      "EPHEMERIS_TYPE": 0,
+      "CLASSIFICATION_TYPE": "U",
+      "NORAD_CAT_ID": 60133,
+      "ELEMENT_SET_NO": 999,
+      "REV_AT_EPOCH": 791,
+      "BSTAR": 0.0,
+      "MEAN_MOTION_DOT": -2.53e-06,
+      "MEAN_MOTION_DDOT": 0.0
+    },
+    "meteosat-12-2026-09-19": {
+      "OBJECT_NAME": "METEOSAT-12 (MTG-I1)",
+      "OBJECT_ID": "2022-170C",
+      "EPOCH": "2026-09-19T08:24:33.664032",
+      "MEAN_MOTION": 1.00272579,
+      "ECCENTRICITY": 0.0003876,
+      "INCLINATION": 0.7354,
+      "RA_OF_ASC_NODE": 19.8294,
+      "ARG_OF_PERICENTER": 93.5797,
+      "MEAN_ANOMALY": 10.5329,
+      "EPHEMERIS_TYPE": 0,
+      "CLASSIFICATION_TYPE": "U",
+      "NORAD_CAT_ID": 54743,
+      "ELEMENT_SET_NO": 999,
+      "REV_AT_EPOCH": 1392,
+      "BSTAR": 0.0,
+      "MEAN_MOTION_DOT": -1.2e-07,
+      "MEAN_MOTION_DDOT": 0.0
+    },
+    "hispasat-30w-6-2026-09-19": {
+      "OBJECT_NAME": "HISPASAT 30W-6",
+      "OBJECT_ID": "2018-023A",
+      "EPOCH": "2026-09-19T08:16:34.430016",
+      "MEAN_MOTION": 1.00272764,
+      "ECCENTRICITY": 0.0003284,
+      "INCLINATION": 0.0464,
+      "RA_OF_ASC_NODE": 36.8188,
+      "ARG_OF_PERICENTER": 104.3932,
+      "MEAN_ANOMALY": 311.1958,
+      "EPHEMERIS_TYPE": 0,
+      "CLASSIFICATION_TYPE": "U",
+      "NORAD_CAT_ID": 43228,
+      "ELEMENT_SET_NO": 999,
+      "REV_AT_EPOCH": 3135,
+      "BSTAR": 0.0,
+      "MEAN_MOTION_DOT": -2.2e-06,
+      "MEAN_MOTION_DDOT": 0.0
+    },
+    "beidou-3-igso-1-2026-09-18": {
+      "OBJECT_NAME": "BEIDOU-3 IGSO-1",
+      "OBJECT_ID": "2019-023A",
+      "EPOCH": "2026-09-18T20:29:56.779296",
+      "MEAN_MOTION": 1.0026491,
+      "ECCENTRICITY": 0.0027931,
+      "INCLINATION": 58.8295,
+      "RA_OF_ASC_NODE": 36.6926,
+      "ARG_OF_PERICENTER": 223.2382,
+      "MEAN_ANOMALY": 163.9271,
+      "EPHEMERIS_TYPE": 0,
+      "CLASSIFICATION_TYPE": "U",
+      "NORAD_CAT_ID": 44204,
+      "ELEMENT_SET_NO": 999,
+      "REV_AT_EPOCH": 815,
+      "BSTAR": 0.0,
+      "MEAN_MOTION_DOT": -1.96e-06,
+      "MEAN_MOTION_DDOT": 0.0
+    },
+    "chandra-2026-09-21": {
+      "OBJECT_NAME": "CXO",
+      "OBJECT_ID": "1999-040B",
+      "EPOCH": "2026-09-21T13:52:52.584096",
+      "MEAN_MOTION": 0.37796833,
+      "ECCENTRICITY": 0.7687429,
+      "INCLINATION": 57.4713,
+      "RA_OF_ASC_NODE": 114.184,
+      "ARG_OF_PERICENTER": 309.3021,
+      "MEAN_ANOMALY": 0.4302,
+      "EPHEMERIS_TYPE": 0,
+      "CLASSIFICATION_TYPE": "U",
+      "NORAD_CAT_ID": 25867,
+      "ELEMENT_SET_NO": 999,
+      "REV_AT_EPOCH": 1768,
+      "BSTAR": 0.0,
+      "MEAN_MOTION_DOT": 9.64e-06,
+      "MEAN_MOTION_DDOT": 0.0
+    },
+    "terra-2026-09-19": {
+      "OBJECT_NAME": "TERRA",
+      "OBJECT_ID": "1999-068A",
+      "EPOCH": "2026-09-19T10:50:49.134048",
+      "MEAN_MOTION": 14.61162301,
+      "ECCENTRICITY": 0.0001054,
+      "INCLINATION": 97.9362,
+      "RA_OF_ASC_NODE": 308.218,
+      "ARG_OF_PERICENTER": 319.6767,
+      "MEAN_ANOMALY": 97.6592,
+      "EPHEMERIS_TYPE": 0,
+      "CLASSIFICATION_TYPE": "U",
+      "NORAD_CAT_ID": 25994,
+      "ELEMENT_SET_NO": 999,
+      "REV_AT_EPOCH": 42337,
+      "BSTAR": 4.7955e-05,
+      "MEAN_MOTION_DOT": 1.92e-06,
+      "MEAN_MOTION_DDOT": 0.0
+    },
+    "landsat-9-2026-09-19": {
+      "OBJECT_NAME": "LANDSAT 9",
+      "OBJECT_ID": "2021-088A",
+      "EPOCH": "2026-09-19T11:31:31.071072",
+      "MEAN_MOTION": 14.57099656,
+      "ECCENTRICITY": 0.0001512,
+      "INCLINATION": 98.22,
+      "RA_OF_ASC_NODE": 331.474,
+      "ARG_OF_PERICENTER": 95.3717,
+      "MEAN_ANOMALY": 264.7653,
+      "EPHEMERIS_TYPE": 0,
+      "CLASSIFICATION_TYPE": "U",
+      "NORAD_CAT_ID": 49260,
+      "ELEMENT_SET_NO": 999,
+      "REV_AT_EPOCH": 26473,
+      "BSTAR": 5.0145e-05,
+      "MEAN_MOTION_DOT": 1.8e-06,
+      "MEAN_MOTION_DDOT": 0.0
+    },
+    "vanguard-1-2026-09-19": {
+      "OBJECT_NAME": "VANGUARD 1",
+      "OBJECT_ID": "1958-002B",
+      "EPOCH": "2026-09-19T08:51:55.183680",
+      "MEAN_MOTION": 10.86055068,
+      "ECCENTRICITY": 0.1837898,
+      "INCLINATION": 34.2533,
+      "RA_OF_ASC_NODE": 23.635,
+      "ARG_OF_PERICENTER": 203.2341,
+      "MEAN_ANOMALY": 147.351,
+      "EPHEMERIS_TYPE": 0,
+      "CLASSIFICATION_TYPE": "U",
+      "NORAD_CAT_ID": 5,
+      "ELEMENT_SET_NO": 999,
+      "REV_AT_EPOCH": 45352,
+      "BSTAR": 0.00042909,
+      "MEAN_MOTION_DOT": 3.51e-06,
+      "MEAN_MOTION_DDOT": 0.0
+    },
+    "navstar-54-2026-09-19": {
+      "OBJECT_NAME": "NAVSTAR 54 (USA 177)",
+      "OBJECT_ID": "2004-009A",
+      "EPOCH": "2026-09-19T07:47:02.588064",
+      "MEAN_MOTION": 2.00573637,
+      "ECCENTRICITY": 0.0118156,
+      "INCLINATION": 54.7579,
+      "RA_OF_ASC_NODE": 271.8753,
+      "ARG_OF_PERICENTER": 176.6503,
+      "MEAN_ANOMALY": 327.0021,
+      "EPHEMERIS_TYPE": 0,
+      "CLASSIFICATION_TYPE": "U",
+      "NORAD_CAT_ID": 28190,
+      "ELEMENT_SET_NO": 999,
+      "REV_AT_EPOCH": 16483,
+      "BSTAR": 0.0,
+      "MEAN_MOTION_DOT": 2.1e-07,
+      "MEAN_MOTION_DDOT": 0.0
+    },
+    "navstar-58-2026-09-19": {
+      "OBJECT_NAME": "NAVSTAR 58 (USA 190)",
+      "OBJECT_ID": "2006-042A",
+      "EPOCH": "2026-09-19T11:23:54.732192",
+      "MEAN_MOTION": 2.00565127,
+      "ECCENTRICITY": 0.0108964,
+      "INCLINATION": 54.7158,
+      "RA_OF_ASC_NODE": 147.5934,
+      "ARG_OF_PERICENTER": 57.3279,
+      "MEAN_ANOMALY": 124.8096,
+      "EPHEMERIS_TYPE": 0,
+      "CLASSIFICATION_TYPE": "U",
+      "NORAD_CAT_ID": 29486,
+      "ELEMENT_SET_NO": 999,
+      "REV_AT_EPOCH": 14628,
+      "BSTAR": 0.0,
+      "MEAN_MOTION_DOT": -2e-07,
+      "MEAN_MOTION_DDOT": 0.0
+    },
+    "navstar-69-2026-09-18": {
+      "OBJECT_NAME": "NAVSTAR 69 (USA 248)",
+      "OBJECT_ID": "2014-008A",
+      "EPOCH": "2026-09-18T22:01:15.984768",
+      "MEAN_MOTION": 2.00565982,
+      "ECCENTRICITY": 0.00835945,
+      "INCLINATION": 53.6633,
+      "RA_OF_ASC_NODE": 145.4942,
+      "ARG_OF_PERICENTER": 231.5519,
+      "MEAN_ANOMALY": 127.765,
+      "EPHEMERIS_TYPE": 0,
+      "CLASSIFICATION_TYPE": "U",
+      "NORAD_CAT_ID": 39533,
+      "ELEMENT_SET_NO": 999,
+      "REV_AT_EPOCH": 9156,
+      "BSTAR": 0.0,
+      "MEAN_MOTION_DOT": -2.2e-07,
+      "MEAN_MOTION_DDOT": 0.0
+    },
+    "navstar-77-2026-09-18": {
+      "OBJECT_NAME": "NAVSTAR 77 (USA 289)",
+      "OBJECT_ID": "2018-109A",
+      "EPOCH": "2026-09-18T23:41:33.944352",
+      "MEAN_MOTION": 2.00565483,
+      "ECCENTRICITY": 0.00403049,
+      "INCLINATION": 55.7414,
+      "RA_OF_ASC_NODE": 88.486,
+      "ARG_OF_PERICENTER": 196.2285,
+      "MEAN_ANOMALY": 335.8508,
+      "EPHEMERIS_TYPE": 0,
+      "CLASSIFICATION_TYPE": "U",
+      "NORAD_CAT_ID": 43873,
+      "ELEMENT_SET_NO": 999,
+      "REV_AT_EPOCH": 5695,
+      "BSTAR": 0.0,
+      "MEAN_MOTION_DOT": 1.1e-07,
+      "MEAN_MOTION_DDOT": 0.0
+    },
+    "galileo-19-2026-09-17": {
+      "OBJECT_NAME": "GSAT0215 (GALILEO 19)",
+      "OBJECT_ID": "2017-079A",
+      "EPOCH": "2026-09-17T16:41:23.094816",
+      "MEAN_MOTION": 1.70473946,
+      "ECCENTRICITY": 0.00032017,
+      "INCLINATION": 55.0522,
+      "RA_OF_ASC_NODE": 218.9624,
+      "ARG_OF_PERICENTER": 283.7703,
+      "MEAN_ANOMALY": 76.1661,
+      "EPHEMERIS_TYPE": 0,
+      "CLASSIFICATION_TYPE": "U",
+      "NORAD_CAT_ID": 43055,
+      "ELEMENT_SET_NO": 999,
+      "REV_AT_EPOCH": 5456,
+      "BSTAR": 0.0,
+      "MEAN_MOTION_DOT": 1.8e-07,
+      "MEAN_MOTION_DDOT": 0.0
+    },
+    "galileo-31-2026-09-19": {
+      "OBJECT_NAME": "GSAT0226 (GALILEO 31)",
+      "OBJECT_ID": "2024-167B",
+      "EPOCH": "2026-09-19T03:37:44.620896",
+      "MEAN_MOTION": 1.70473729,
+      "ECCENTRICITY": 0.00022486,
+      "INCLINATION": 55.1639,
+      "RA_OF_ASC_NODE": 218.7444,
+      "ARG_OF_PERICENTER": 247.7759,
+      "MEAN_ANOMALY": 240.156,
+      "EPHEMERIS_TYPE": 0,
+      "CLASSIFICATION_TYPE": "U",
+      "NORAD_CAT_ID": 61183,
+      "ELEMENT_SET_NO": 999,
+      "REV_AT_EPOCH": 1245,
+      "BSTAR": 0.0,
+      "MEAN_MOTION_DOT": 1.7e-07,
+      "MEAN_MOTION_DDOT": 0.0
+    }
+  },
+  "searches": [
+    {
+      "key": "madrid-3-days",
+      "elements": "iss-2026-09-19",
+      "observer": {
+        "latitude": 40.4168,
+        "longitude": -3.7038,
+        "altitude": 657
+      },
+      "standardMagnitude": -1.8,
+      "from": "2026-09-19T14:00:00.000Z",
+      "to": "2026-09-22T14:00:00.000Z",
+      "passes": [
+        {
+          "rise": {
+            "at": "2026-09-19T15:09:34.234Z",
+            "azimuth": 209.9471
+          },
+          "culmination": {
+            "at": "2026-09-19T15:14:48.529Z",
+            "azimuth": 135.3439,
+            "elevation": 31.5475,
+            "sunlit": true,
+            "sunAltitude": 32.5551,
+            "magnitude": -2.3038
+          },
+          "set": {
+            "at": "2026-09-19T15:20:03.863Z",
+            "azimuth": 61.0853
+          },
+          "window": null,
+          "visible": false,
+          "candidateIntervals": 0,
+          "geometryPeakMagnitude": null
+        },
+        {
+          "rise": {
+            "at": "2026-09-19T16:46:17.132Z",
+            "azimuth": 255.7105
+          },
+          "culmination": {
+            "at": "2026-09-19T16:51:35.180Z",
+            "azimuth": 332.2263,
+            "elevation": 32.3017,
+            "sunlit": true,
+            "sunAltitude": 15.3819,
+            "magnitude": -1.9632
+          },
+          "set": {
+            "at": "2026-09-19T16:56:53.982Z",
+            "azimuth": 48.7865
+          },
+          "window": null,
+          "visible": false,
+          "candidateIntervals": 0,
+          "geometryPeakMagnitude": null
+        },
+        {
+          "rise": {
+            "at": "2026-09-19T18:24:28.771Z",
+            "azimuth": 292.0852
+          },
+          "culmination": {
+            "at": "2026-09-19T18:29:10.569Z",
+            "azimuth": 351.8013,
+            "elevation": 13.255,
+            "sunlit": true,
+            "sunAltitude": -3.117,
+            "magnitude": -0.9643
+          },
+          "set": {
+            "at": "2026-09-19T18:33:52.293Z",
+            "azimuth": 51.6009
+          },
+          "window": null,
+          "visible": false,
+          "candidateIntervals": 0,
+          "geometryPeakMagnitude": null
+        },
+        {
+          "rise": {
+            "at": "2026-09-19T20:02:15.765Z",
+            "azimuth": 310.5448
+          },
+          "culmination": {
+            "at": "2026-09-19T20:07:04.155Z",
+            "azimuth": 12.5681,
+            "elevation": 14.7799,
+            "sunlit": true,
+            "sunAltitude": -21.2618,
+            "magnitude": -1.2881
+          },
+          "set": {
+            "at": "2026-09-19T20:11:51.284Z",
+            "azimuth": 74.5772
+          },
+          "window": {
+            "appears": {
+              "at": "2026-09-19T20:05:03.463Z",
+              "azimuth": 335.7476,
+              "elevation": 10.0001,
+              "reason": "elevation"
+            },
+            "disappears": {
+              "at": "2026-09-19T20:07:12.783Z",
+              "azimuth": 15.6028,
+              "elevation": 14.7478,
+              "reason": "sunlit"
+            },
+            "peak": {
+              "at": "2026-09-19T20:07:12.783Z",
+              "magnitude": -1.3376
+            }
+          },
+          "visible": true,
+          "candidateIntervals": 1,
+          "geometryPeakMagnitude": -1.3336
+        },
+        {
+          "rise": {
+            "at": "2026-09-19T21:39:06.324Z",
+            "azimuth": 309.7366
+          },
+          "culmination": {
+            "at": "2026-09-19T21:44:30.549Z",
+            "azimuth": 31.6332,
+            "elevation": 46.197,
+            "sunlit": false,
+            "sunAltitude": -37.0356,
+            "magnitude": -3.3438
+          },
+          "set": {
+            "at": "2026-09-19T21:49:52.365Z",
+            "azimuth": 113.576
+          },
+          "window": null,
+          "visible": false,
+          "candidateIntervals": 0,
+          "geometryPeakMagnitude": null
+        },
+        {
+          "rise": {
+            "at": "2026-09-19T23:16:07.558Z",
+            "azimuth": 293.9251
+          },
+          "culmination": {
+            "at": "2026-09-19T23:21:05.068Z",
+            "azimuth": 227.9092,
+            "elevation": 19.6686,
+            "sunlit": false,
+            "sunAltitude": -47.0284,
+            "magnitude": -2.1785
+          },
+          "set": {
+            "at": "2026-09-19T23:26:00.632Z",
+            "azimuth": 161.6537
+          },
+          "window": null,
+          "visible": false,
+          "candidateIntervals": 0,
+          "geometryPeakMagnitude": null
+        },
+        {
+          "rise": {
+            "at": "2026-09-20T14:22:25.216Z",
+            "azimuth": 196.7586
+          },
+          "culmination": {
+            "at": "2026-09-20T14:27:20.087Z",
+            "azimuth": 131.657,
+            "elevation": 18.6143,
+            "sunlit": true,
+            "sunAltitude": 39.4779,
+            "magnitude": -1.486
+          },
+          "set": {
+            "at": "2026-09-20T14:32:15.971Z",
+            "azimuth": 66.8
+          },
+          "window": null,
+          "visible": false,
+          "candidateIntervals": 0,
+          "geometryPeakMagnitude": null
+        },
+        {
+          "rise": {
+            "at": "2026-09-20T15:58:28.551Z",
+            "azimuth": 244.9853
+          },
+          "culmination": {
+            "at": "2026-09-20T16:03:53.142Z",
+            "azimuth": 327.796,
+            "elevation": 49.2629,
+            "sunlit": true,
+            "sunAltitude": 23.7763,
+            "magnitude": -2.5123
+          },
+          "set": {
+            "at": "2026-09-20T16:09:18.677Z",
+            "azimuth": 50.5458
+          },
+          "window": null,
+          "visible": false,
+          "candidateIntervals": 0,
+          "geometryPeakMagnitude": null
+        },
+        {
+          "rise": {
+            "at": "2026-09-20T17:36:28.481Z",
+            "azimuth": 284.2481
+          },
+          "culmination": {
+            "at": "2026-09-20T17:41:18.072Z",
+            "azimuth": 346.7151,
+            "elevation": 15.1374,
+            "sunlit": true,
+            "sunAltitude": 5.6788,
+            "magnitude": -1.1353
+          },
+          "set": {
+            "at": "2026-09-20T17:46:07.614Z",
+            "azimuth": 49.2004
+          },
+          "window": null,
+          "visible": false,
+          "candidateIntervals": 0,
+          "geometryPeakMagnitude": null
+        },
+        {
+          "rise": {
+            "at": "2026-09-20T19:14:30.109Z",
+            "azimuth": 307.9445
+          },
+          "culmination": {
+            "at": "2026-09-20T19:19:11.240Z",
+            "azimuth": 7.4054,
+            "elevation": 13.0686,
+            "sunlit": true,
+            "sunAltitude": -12.8619,
+            "magnitude": -1.1551
+          },
+          "set": {
+            "at": "2026-09-20T19:23:51.515Z",
+            "azimuth": 66.9002
+          },
+          "window": {
+            "appears": {
+              "at": "2026-09-20T19:17:30.263Z",
+              "azimuth": 337.3074,
+              "elevation": 10.0004,
+              "reason": "elevation"
+            },
+            "disappears": {
+              "at": "2026-09-20T19:20:52.057Z",
+              "azimuth": 37.509,
+              "elevation": 10.0002,
+              "reason": "elevation"
+            },
+            "peak": {
+              "at": "2026-09-20T19:20:19.881Z",
+              "magnitude": -1.3534
+            }
+          },
+          "visible": true,
+          "candidateIntervals": 1,
+          "geometryPeakMagnitude": -1.3534
+        },
+        {
+          "rise": {
+            "at": "2026-09-20T20:51:30.605Z",
+            "azimuth": 311.3811
+          },
+          "culmination": {
+            "at": "2026-09-20T20:56:48.092Z",
+            "azimuth": 27.2116,
+            "elevation": 30.7193,
+            "sunlit": false,
+            "sunAltitude": -30.115,
+            "magnitude": -2.5947
+          },
+          "set": {
+            "at": "2026-09-20T21:02:03.135Z",
+            "azimuth": 102.8833
+          },
+          "window": {
+            "appears": {
+              "at": "2026-09-20T20:53:45.554Z",
+              "azimuth": 322.4805,
+              "elevation": 10.0006,
+              "reason": "elevation"
+            },
+            "disappears": {
+              "at": "2026-09-20T20:54:17.323Z",
+              "azimuth": 327.2223,
+              "elevation": 13.2901,
+              "reason": "sunlit"
+            },
+            "peak": {
+              "at": "2026-09-20T20:54:17.323Z",
+              "magnitude": -0.0996
+            }
+          },
+          "visible": true,
+          "candidateIntervals": 1,
+          "geometryPeakMagnitude": -0.0898
+        },
+        {
+          "rise": {
+            "at": "2026-09-20T22:28:20.128Z",
+            "azimuth": 299.5093
+          },
+          "culmination": {
+            "at": "2026-09-20T22:33:36.208Z",
+            "azimuth": 224.1351,
+            "elevation": 33.5808,
+            "sunlit": false,
+            "sunAltitude": -43.5059,
+            "magnitude": -2.9914
+          },
+          "set": {
+            "at": "2026-09-20T22:38:49.727Z",
+            "azimuth": 148.5402
+          },
+          "window": null,
+          "visible": false,
+          "candidateIntervals": 0,
+          "geometryPeakMagnitude": null
+        },
+        {
+          "rise": {
+            "at": "2026-09-21T00:07:40.265Z",
+            "azimuth": 258.4751
+          },
+          "culmination": {
+            "at": "2026-09-21T00:09:30.984Z",
+            "azimuth": 238.1946,
+            "elevation": 1.2215,
+            "sunlit": false,
+            "sunAltitude": -48.807,
+            "magnitude": -0.4178
+          },
+          "set": {
+            "at": "2026-09-21T00:11:21.539Z",
+            "azimuth": 217.8707
+          },
+          "window": null,
+          "visible": false,
+          "candidateIntervals": 0,
+          "geometryPeakMagnitude": null
+        },
+        {
+          "rise": {
+            "at": "2026-09-21T13:35:32.129Z",
+            "azimuth": 182.1133
+          },
+          "culmination": {
+            "at": "2026-09-21T13:39:54.155Z",
+            "azimuth": 128.1192,
+            "elevation": 10.7409,
+            "sunlit": true,
+            "sunAltitude": 44.9943,
+            "magnitude": -0.7648
+          },
+          "set": {
+            "at": "2026-09-21T13:44:17.021Z",
+            "azimuth": 74.2885
+          },
+          "window": null,
+          "visible": false,
+          "candidateIntervals": 0,
+          "geometryPeakMagnitude": null
+        },
+        {
+          "rise": {
+            "at": "2026-09-21T15:10:46.567Z",
+            "azimuth": 233.7955
+          },
+          "culmination": {
+            "at": "2026-09-21T15:16:13.614Z",
+            "azimuth": 323.1762,
+            "elevation": 82.8006,
+            "sunlit": true,
+            "sunAltitude": 31.6193,
+            "magnitude": -2.8283
+          },
+          "set": {
+            "at": "2026-09-21T15:21:42.005Z",
+            "azimuth": 53.1569
+          },
+          "window": null,
+          "visible": false,
+          "candidateIntervals": 0,
+          "geometryPeakMagnitude": null
+        },
+        {
+          "rise": {
+            "at": "2026-09-21T16:48:27.357Z",
+            "azimuth": 275.4196
+          },
+          "culmination": {
+            "at": "2026-09-21T16:53:26.621Z",
+            "azimuth": 341.7022,
+            "elevation": 18.32,
+            "sunlit": true,
+            "sunAltitude": 14.385,
+            "magnitude": -1.3883
+          },
+          "set": {
+            "at": "2026-09-21T16:58:26.101Z",
+            "azimuth": 48.0215
+          },
+          "window": null,
+          "visible": false,
+          "candidateIntervals": 0,
+          "geometryPeakMagnitude": null
+        },
+        {
+          "rise": {
+            "at": "2026-09-21T18:26:39.114Z",
+            "azimuth": 303.989
+          },
+          "culmination": {
+            "at": "2026-09-21T18:31:16.442Z",
+            "azimuth": 2.17,
+            "elevation": 12.3044,
+            "sunlit": true,
+            "sunAltitude": -4.1562,
+            "magnitude": -1.1023
+          },
+          "set": {
+            "at": "2026-09-21T18:35:53.294Z",
+            "azimuth": 60.435
+          },
+          "window": null,
+          "visible": false,
+          "candidateIntervals": 0,
+          "geometryPeakMagnitude": null
+        },
+        {
+          "rise": {
+            "at": "2026-09-21T20:03:53.344Z",
+            "azimuth": 312.1216
+          },
+          "culmination": {
+            "at": "2026-09-21T20:09:01.452Z",
+            "azimuth": 22.4222,
+            "elevation": 22.5198,
+            "sunlit": false,
+            "sunAltitude": -22.2824,
+            "magnitude": -2.0737
+          },
+          "set": {
+            "at": "2026-09-21T20:14:07.658Z",
+            "azimuth": 92.7144
+          },
+          "window": {
+            "appears": {
+              "at": "2026-09-21T20:06:17.073Z",
+              "azimuth": 327.8715,
+              "elevation": 10.0004,
+              "reason": "elevation"
+            },
+            "disappears": {
+              "at": "2026-09-21T20:08:25.936Z",
+              "azimuth": 5.8548,
+              "elevation": 21.4334,
+              "reason": "sunlit"
+            },
+            "peak": {
+              "at": "2026-09-21T20:08:25.936Z",
+              "magnitude": -1.7351
+            }
+          },
+          "visible": true,
+          "candidateIntervals": 1,
+          "geometryPeakMagnitude": -1.7296
+        },
+        {
+          "rise": {
+            "at": "2026-09-21T21:40:37.833Z",
+            "azimuth": 303.8771
+          },
+          "culmination": {
+            "at": "2026-09-21T21:46:03.164Z",
+            "azimuth": 220.2376,
+            "elevation": 60.6701,
+            "sunlit": false,
+            "sunAltitude": -37.9952,
+            "magnitude": -3.8894
+          },
+          "set": {
+            "at": "2026-09-21T21:51:25.725Z",
+            "azimuth": 136.2737
+          },
+          "window": null,
+          "visible": false,
+          "candidateIntervals": 0,
+          "geometryPeakMagnitude": null
+        },
+        {
+          "rise": {
+            "at": "2026-09-21T23:18:36.463Z",
+            "azimuth": 276.5754
+          },
+          "culmination": {
+            "at": "2026-09-21T23:22:10.490Z",
+            "azimuth": 234.9607,
+            "elevation": 5.7095,
+            "sunlit": false,
+            "sunAltitude": -47.8875,
+            "magnitude": -0.7983
+          },
+          "set": {
+            "at": "2026-09-21T23:25:44.148Z",
+            "azimuth": 193.0899
+          },
+          "window": null,
+          "visible": false,
+          "candidateIntervals": 0,
+          "geometryPeakMagnitude": null
+        },
+        {
+          "rise": {
+            "at": "2026-09-22T12:49:03.894Z",
+            "azimuth": 164.6193
+          },
+          "culmination": {
+            "at": "2026-09-22T12:52:30.734Z",
+            "azimuth": 124.6969,
+            "elevation": 5.1737,
+            "sunlit": true,
+            "sunAltitude": 48.4832,
+            "magnitude": -0.1244
+          },
+          "set": {
+            "at": "2026-09-22T12:55:58.034Z",
+            "azimuth": 84.8909
+          },
+          "window": null,
+          "visible": false,
+          "candidateIntervals": 0,
+          "geometryPeakMagnitude": null
+        }
+      ]
+    },
+    {
+      "key": "la-paz-2-days",
+      "elements": "iss-2026-09-19",
+      "observer": {
+        "latitude": -16.4897,
+        "longitude": -68.1193,
+        "altitude": 3640
+      },
+      "standardMagnitude": -1.8,
+      "from": "2026-09-20T00:00:00.000Z",
+      "to": "2026-09-22T00:00:00.000Z",
+      "passes": [
+        {
+          "rise": {
+            "at": "2026-09-20T05:43:59.766Z",
+            "azimuth": 333.7904
+          },
+          "culmination": {
+            "at": "2026-09-20T05:49:17.290Z",
+            "azimuth": 53.9427,
+            "elevation": 43.9542,
+            "sunlit": false,
+            "sunAltitude": -64.3447,
+            "magnitude": -3.4344
+          },
+          "set": {
+            "at": "2026-09-20T05:54:39.091Z",
+            "azimuth": 133.7716
+          },
+          "window": null,
+          "visible": false,
+          "candidateIntervals": 0,
+          "geometryPeakMagnitude": null
+        },
+        {
+          "rise": {
+            "at": "2026-09-20T07:22:07.568Z",
+            "azimuth": 273.5655
+          },
+          "culmination": {
+            "at": "2026-09-20T07:26:10.216Z",
+            "azimuth": 224.6991,
+            "elevation": 7.9224,
+            "sunlit": false,
+            "sunAltitude": -43.0432,
+            "magnitude": -1.1434
+          },
+          "set": {
+            "at": "2026-09-20T07:30:15.157Z",
+            "azimuth": 175.8489
+          },
+          "window": null,
+          "visible": false,
+          "candidateIntervals": 0,
+          "geometryPeakMagnitude": null
+        },
+        {
+          "rise": {
+            "at": "2026-09-20T15:36:29.381Z",
+            "azimuth": 206.1861
+          },
+          "culmination": {
+            "at": "2026-09-20T15:41:49.271Z",
+            "azimuth": 129.9858,
+            "elevation": 32.6069,
+            "sunlit": true,
+            "sunAltitude": 69.4844,
+            "magnitude": -1.783
+          },
+          "set": {
+            "at": "2026-09-20T15:47:05.777Z",
+            "azimuth": 53.8327
+          },
+          "window": null,
+          "visible": false,
+          "candidateIntervals": 0,
+          "geometryPeakMagnitude": null
+        },
+        {
+          "rise": {
+            "at": "2026-09-20T17:14:06.534Z",
+            "azimuth": 252.3608
+          },
+          "culmination": {
+            "at": "2026-09-20T17:18:18.990Z",
+            "azimuth": 303.1896,
+            "elevation": 9.104,
+            "sunlit": true,
+            "sunAltitude": 68.3296,
+            "magnitude": -0.1091
+          },
+          "set": {
+            "at": "2026-09-20T17:22:30.117Z",
+            "azimuth": 354.3533
+          },
+          "window": null,
+          "visible": false,
+          "candidateIntervals": 0,
+          "geometryPeakMagnitude": null
+        },
+        {
+          "rise": {
+            "at": "2026-09-21T04:56:50.350Z",
+            "azimuth": 348.5971
+          },
+          "culmination": {
+            "at": "2026-09-21T05:01:45.783Z",
+            "azimuth": 55.5228,
+            "elevation": 19.7775,
+            "sunlit": false,
+            "sunAltitude": -71.8761,
+            "magnitude": -2.0672
+          },
+          "set": {
+            "at": "2026-09-21T05:06:44.301Z",
+            "azimuth": 122.063
+          },
+          "window": null,
+          "visible": false,
+          "candidateIntervals": 0,
+          "geometryPeakMagnitude": null
+        },
+        {
+          "rise": {
+            "at": "2026-09-21T06:33:38.061Z",
+            "azimuth": 290.4463
+          },
+          "culmination": {
+            "at": "2026-09-21T06:38:25.537Z",
+            "azimuth": 227.488,
+            "elevation": 15.8136,
+            "sunlit": false,
+            "sunAltitude": -53.6734,
+            "magnitude": -1.8425
+          },
+          "set": {
+            "at": "2026-09-21T06:43:16.525Z",
+            "azimuth": 164.4948
+          },
+          "window": null,
+          "visible": false,
+          "candidateIntervals": 0,
+          "geometryPeakMagnitude": null
+        },
+        {
+          "rise": {
+            "at": "2026-09-21T14:49:14.373Z",
+            "azimuth": 196.0143
+          },
+          "culmination": {
+            "at": "2026-09-21T14:54:08.774Z",
+            "azimuth": 132.3517,
+            "elevation": 16.4271,
+            "sunlit": true,
+            "sunAltitude": 61.7592,
+            "magnitude": -0.9894
+          },
+          "set": {
+            "at": "2026-09-21T14:59:00.429Z",
+            "azimuth": 68.7596
+          },
+          "window": null,
+          "visible": false,
+          "candidateIntervals": 0,
+          "geometryPeakMagnitude": null
+        },
+        {
+          "rise": {
+            "at": "2026-09-21T16:25:48.406Z",
+            "azimuth": 238.2366
+          },
+          "culmination": {
+            "at": "2026-09-21T16:30:48.319Z",
+            "azimuth": 304.4316,
+            "elevation": 19.5575,
+            "sunlit": true,
+            "sunAltitude": 72.9475,
+            "magnitude": -0.9651
+          },
+          "set": {
+            "at": "2026-09-21T16:35:45.786Z",
+            "azimuth": 11.0426
+          },
+          "window": null,
+          "visible": false,
+          "candidateIntervals": 0,
+          "geometryPeakMagnitude": null
+        }
+      ]
+    },
+    {
+      "key": "edinburgh-summer-3-days",
+      "elements": "iss-2026-09-19",
+      "observer": {
+        "latitude": 55.9533,
+        "longitude": -3.1883,
+        "altitude": 47
+      },
+      "standardMagnitude": -1.8,
+      "from": "2026-06-28T12:00:00.000Z",
+      "to": "2026-07-01T12:00:00.000Z",
+      "passes": [
+        {
+          "rise": {
+            "at": "2026-06-28T23:20:36.442Z",
+            "azimuth": 139.2636
+          },
+          "culmination": {
+            "at": "2026-06-28T23:21:41.628Z",
+            "azimuth": 127.6408,
+            "elevation": 0.4051,
+            "sunlit": false,
+            "sunAltitude": -9.9689,
+            "magnitude": -0.5724
+          },
+          "set": {
+            "at": "2026-06-28T23:22:47.152Z",
+            "azimuth": 115.9762
+          },
+          "window": null,
+          "visible": false,
+          "candidateIntervals": 0,
+          "geometryPeakMagnitude": null
+        },
+        {
+          "rise": {
+            "at": "2026-06-29T00:52:37.608Z",
+            "azimuth": 203.4776
+          },
+          "culmination": {
+            "at": "2026-06-29T00:57:15.277Z",
+            "azimuth": 145.6449,
+            "elevation": 13.1946,
+            "sunlit": true,
+            "sunAltitude": -10.3336,
+            "magnitude": -1.7684
+          },
+          "set": {
+            "at": "2026-06-29T01:01:53.448Z",
+            "azimuth": 88.0127
+          },
+          "window": {
+            "appears": {
+              "at": "2026-06-29T00:56:33.042Z",
+              "azimuth": 159.0915,
+              "elevation": 12.5646,
+              "reason": "sunlit"
+            },
+            "disappears": {
+              "at": "2026-06-29T00:58:56.939Z",
+              "azimuth": 115.7534,
+              "elevation": 10.0001,
+              "reason": "elevation"
+            },
+            "peak": {
+              "at": "2026-06-29T00:56:45.267Z",
+              "magnitude": -1.8043
+            }
+          },
+          "visible": true,
+          "candidateIntervals": 1,
+          "geometryPeakMagnitude": -1.8043
+        },
+        {
+          "rise": {
+            "at": "2026-06-29T02:28:07.463Z",
+            "azimuth": 239.0139
+          },
+          "culmination": {
+            "at": "2026-06-29T02:33:25.114Z",
+            "azimuth": 164.9088,
+            "elevation": 31.5346,
+            "sunlit": true,
+            "sunAltitude": -5.6336,
+            "magnitude": -2.921
+          },
+          "set": {
+            "at": "2026-06-29T02:38:42.903Z",
+            "azimuth": 90.8745
+          },
+          "window": null,
+          "visible": false,
+          "candidateIntervals": 0,
+          "geometryPeakMagnitude": null
+        },
+        {
+          "rise": {
+            "at": "2026-06-29T04:04:30.709Z",
+            "azimuth": 262.1729
+          },
+          "culmination": {
+            "at": "2026-06-29T04:09:53.567Z",
+            "azimuth": 184.9122,
+            "elevation": 38.8035,
+            "sunlit": true,
+            "sunAltitude": 3.2878,
+            "magnitude": -3.1556
+          },
+          "set": {
+            "at": "2026-06-29T04:15:15.410Z",
+            "azimuth": 107.5594
+          },
+          "window": null,
+          "visible": false,
+          "candidateIntervals": 0,
+          "geometryPeakMagnitude": null
+        },
+        {
+          "rise": {
+            "at": "2026-06-29T05:41:09.947Z",
+            "azimuth": 272.4213
+          },
+          "culmination": {
+            "at": "2026-06-29T05:46:15.744Z",
+            "azimuth": 204.6354,
+            "elevation": 22.0649,
+            "sunlit": true,
+            "sunAltitude": 15.0504,
+            "magnitude": -2.3032
+          },
+          "set": {
+            "at": "2026-06-29T05:51:19.746Z",
+            "azimuth": 136.6862
+          },
+          "window": null,
+          "visible": false,
+          "candidateIntervals": 0,
+          "geometryPeakMagnitude": null
+        },
+        {
+          "rise": {
+            "at": "2026-06-29T07:18:25.988Z",
+            "azimuth": 266.4048
+          },
+          "culmination": {
+            "at": "2026-06-29T07:22:09.056Z",
+            "azimuth": 223.3693,
+            "elevation": 6.2901,
+            "sunlit": true,
+            "sunAltitude": 28.2059,
+            "magnitude": -1.0327
+          },
+          "set": {
+            "at": "2026-06-29T07:25:51.556Z",
+            "azimuth": 180.0904
+          },
+          "window": null,
+          "visible": false,
+          "candidateIntervals": 0,
+          "geometryPeakMagnitude": null
+        },
+        {
+          "rise": {
+            "at": "2026-06-30T00:06:38.088Z",
+            "azimuth": 192.6484
+          },
+          "culmination": {
+            "at": "2026-06-30T00:10:53.771Z",
+            "azimuth": 141.2266,
+            "elevation": 9.6394,
+            "sunlit": false,
+            "sunAltitude": -10.86,
+            "magnitude": -1.4987
+          },
+          "set": {
+            "at": "2026-06-30T00:15:10.248Z",
+            "azimuth": 89.9275
+          },
+          "window": null,
+          "visible": false,
+          "candidateIntervals": 0,
+          "geometryPeakMagnitude": null
+        },
+        {
+          "rise": {
+            "at": "2026-06-30T01:41:43.372Z",
+            "azimuth": 231.6405
+          },
+          "culmination": {
+            "at": "2026-06-30T01:46:56.077Z",
+            "azimuth": 160.2294,
+            "elevation": 26.9148,
+            "sunlit": true,
+            "sunAltitude": -8.5665,
+            "magnitude": -2.7363
+          },
+          "set": {
+            "at": "2026-06-30T01:52:09.338Z",
+            "azimuth": 88.8304
+          },
+          "window": {
+            "appears": {
+              "at": "2026-06-30T01:44:15.294Z",
+              "azimuth": 217.2779,
+              "elevation": 11.4612,
+              "reason": "sunlit"
+            },
+            "disappears": {
+              "at": "2026-06-30T01:49:52.463Z",
+              "azimuth": 100.8298,
+              "elevation": 10.0003,
+              "reason": "elevation"
+            },
+            "peak": {
+              "at": "2026-06-30T01:46:38.056Z",
+              "magnitude": -2.7676
+            }
+          },
+          "visible": true,
+          "candidateIntervals": 1,
+          "geometryPeakMagnitude": -2.7676
+        },
+        {
+          "rise": {
+            "at": "2026-06-30T03:17:58.910Z",
+            "azimuth": 257.7419
+          },
+          "culmination": {
+            "at": "2026-06-30T03:23:22.229Z",
+            "azimuth": 180.0977,
+            "elevation": 39.8083,
+            "sunlit": true,
+            "sunAltitude": -1.5286,
+            "magnitude": -3.2581
+          },
+          "set": {
+            "at": "2026-06-30T03:28:44.872Z",
+            "azimuth": 102.378
+          },
+          "window": null,
+          "visible": false,
+          "candidateIntervals": 0,
+          "geometryPeakMagnitude": null
+        },
+        {
+          "rise": {
+            "at": "2026-06-30T04:54:35.045Z",
+            "azimuth": 271.2149
+          },
+          "culmination": {
+            "at": "2026-06-30T04:59:48.172Z",
+            "azimuth": 199.9864,
+            "elevation": 26.7504,
+            "sunlit": true,
+            "sunAltitude": 9.0399,
+            "magnitude": -2.6367
+          },
+          "set": {
+            "at": "2026-06-30T05:04:59.654Z",
+            "azimuth": 128.5751
+          },
+          "window": null,
+          "visible": false,
+          "candidateIntervals": 0,
+          "geometryPeakMagnitude": null
+        },
+        {
+          "rise": {
+            "at": "2026-06-30T06:31:34.997Z",
+            "azimuth": 269.9753
+          },
+          "culmination": {
+            "at": "2026-06-30T06:35:50.060Z",
+            "azimuth": 218.9646,
+            "elevation": 9.4935,
+            "sunlit": true,
+            "sunAltitude": 21.6837,
+            "magnitude": -1.384
+          },
+          "set": {
+            "at": "2026-06-30T06:40:03.938Z",
+            "azimuth": 167.7412
+          },
+          "window": null,
+          "visible": false,
+          "candidateIntervals": 0,
+          "geometryPeakMagnitude": null
+        },
+        {
+          "rise": {
+            "at": "2026-06-30T23:20:49.383Z",
+            "azimuth": 180.3895
+          },
+          "culmination": {
+            "at": "2026-06-30T23:24:33.938Z",
+            "azimuth": 136.8567,
+            "elevation": 6.4318,
+            "sunlit": false,
+            "sunAltitude": -10.1605,
+            "magnitude": -1.2319
+          },
+          "set": {
+            "at": "2026-06-30T23:28:19.304Z",
+            "azimuth": 93.3997
+          },
+          "window": null,
+          "visible": false,
+          "candidateIntervals": 0,
+          "geometryPeakMagnitude": null
+        },
+        {
+          "rise": {
+            "at": "2026-07-01T00:55:22.351Z",
+            "azimuth": 223.5624
+          },
+          "culmination": {
+            "at": "2026-07-01T01:00:27.877Z",
+            "azimuth": 155.5349,
+            "elevation": 22.2447,
+            "sunlit": true,
+            "sunAltitude": -10.3841,
+            "magnitude": -2.4978
+          },
+          "set": {
+            "at": "2026-07-01T01:05:34.103Z",
+            "azimuth": 87.5941
+          },
+          "window": {
+            "appears": {
+              "at": "2026-07-01T00:58:53.360Z",
+              "azimuth": 193.0631,
+              "elevation": 16.3533,
+              "reason": "sunlit"
+            },
+            "disappears": {
+              "at": "2026-07-01T01:03:11.349Z",
+              "azimuth": 102.5825,
+              "elevation": 10.0004,
+              "reason": "elevation"
+            },
+            "peak": {
+              "at": "2026-07-01T01:00:10.646Z",
+              "magnitude": -2.5197
+            }
+          },
+          "visible": true,
+          "candidateIntervals": 1,
+          "geometryPeakMagnitude": -2.5197
+        },
+        {
+          "rise": {
+            "at": "2026-07-01T02:31:27.401Z",
+            "azimuth": 252.5794
+          },
+          "culmination": {
+            "at": "2026-07-01T02:36:50.264Z",
+            "azimuth": 175.2092,
+            "elevation": 38.8774,
+            "sunlit": true,
+            "sunAltitude": -5.5246,
+            "magnitude": -3.2811
+          },
+          "set": {
+            "at": "2026-07-01T02:42:12.642Z",
+            "azimuth": 97.924
+          },
+          "window": null,
+          "visible": false,
+          "candidateIntervals": 0,
+          "geometryPeakMagnitude": null
+        },
+        {
+          "rise": {
+            "at": "2026-07-01T04:08:00.459Z",
+            "azimuth": 269.1918
+          },
+          "culmination": {
+            "at": "2026-07-01T04:13:18.508Z",
+            "azimuth": 195.256,
+            "elevation": 31.4058,
+            "sunlit": true,
+            "sunAltitude": 3.515,
+            "magnitude": -2.9259
+          },
+          "set": {
+            "at": "2026-07-01T04:18:35.105Z",
+            "azimuth": 121.1659
+          },
+          "window": null,
+          "visible": false,
+          "candidateIntervals": 0,
+          "geometryPeakMagnitude": null
+        },
+        {
+          "rise": {
+            "at": "2026-07-01T05:44:50.511Z",
+            "azimuth": 271.9528
+          },
+          "culmination": {
+            "at": "2026-07-01T05:49:27.926Z",
+            "azimuth": 214.5133,
+            "elevation": 13.0507,
+            "sunlit": true,
+            "sunAltitude": 15.3227,
+            "magnitude": -1.7396
+          },
+          "set": {
+            "at": "2026-07-01T05:54:03.848Z",
+            "azimuth": 156.8545
+          },
+          "window": null,
+          "visible": false,
+          "candidateIntervals": 0,
+          "geometryPeakMagnitude": null
+        },
+        {
+          "rise": {
+            "at": "2026-07-01T07:24:04.847Z",
+            "azimuth": 242.5243
+          },
+          "culmination": {
+            "at": "2026-07-01T07:25:00.739Z",
+            "azimuth": 232.5576,
+            "elevation": 0.2943,
+            "sunlit": true,
+            "sunAltitude": 28.4542,
+            "magnitude": -0.5264
+          },
+          "set": {
+            "at": "2026-07-01T07:25:56.484Z",
+            "azimuth": 222.5964
+          },
+          "window": null,
+          "visible": false,
+          "candidateIntervals": 0,
+          "geometryPeakMagnitude": null
+        }
+      ]
+    },
+    {
+      "key": "sao-paulo-tiangong-3-days",
+      "elements": "tiangong-2026-09-19",
+      "observer": {
+        "latitude": -23.5505,
+        "longitude": -46.6333,
+        "altitude": 760
+      },
+      "standardMagnitude": 0.0,
+      "from": "2026-09-21T00:00:00.000Z",
+      "to": "2026-09-24T00:00:00.000Z",
+      "passes": [
+        {
+          "rise": {
+            "at": "2026-09-21T00:33:29.713Z",
+            "azimuth": 282.563
+          },
+          "culmination": {
+            "at": "2026-09-21T00:38:29.150Z",
+            "azimuth": 210.8796,
+            "elevation": 24.1127,
+            "sunlit": false,
+            "sunAltitude": -48.8733,
+            "magnitude": -0.0909
+          },
+          "set": {
+            "at": "2026-09-21T00:43:30.780Z",
+            "azimuth": 139.2215
+          },
+          "window": null,
+          "visible": false,
+          "candidateIntervals": 0,
+          "geometryPeakMagnitude": null
+        },
+        {
+          "rise": {
+            "at": "2026-09-21T02:12:45.297Z",
+            "azimuth": 236.5609
+          },
+          "culmination": {
+            "at": "2026-09-21T02:16:09.838Z",
+            "azimuth": 195.9794,
+            "elevation": 4.9628,
+            "sunlit": false,
+            "sunAltitude": -64.8617,
+            "magnitude": 1.7183
+          },
+          "set": {
+            "at": "2026-09-21T02:19:34.996Z",
+            "azimuth": 155.364
+          },
+          "window": null,
+          "visible": false,
+          "candidateIntervals": 0,
+          "geometryPeakMagnitude": null
+        },
+        {
+          "rise": {
+            "at": "2026-09-21T03:52:16.862Z",
+            "azimuth": 203.3339
+          },
+          "culmination": {
+            "at": "2026-09-21T03:54:31.218Z",
+            "azimuth": 177.9761,
+            "elevation": 1.7975,
+            "sunlit": false,
+            "sunAltitude": -63.5813,
+            "magnitude": 2.0808
+          },
+          "set": {
+            "at": "2026-09-21T03:56:45.637Z",
+            "azimuth": 152.5898
+          },
+          "window": null,
+          "visible": false,
+          "candidateIntervals": 0,
+          "geometryPeakMagnitude": null
+        },
+        {
+          "rise": {
+            "at": "2026-09-21T05:28:55.922Z",
+            "azimuth": 207.3832
+          },
+          "culmination": {
+            "at": "2026-09-21T05:32:46.578Z",
+            "azimuth": 160.4216,
+            "elevation": 6.9732,
+            "sunlit": false,
+            "sunAltitude": -46.4278,
+            "magnitude": 1.6191
+          },
+          "set": {
+            "at": "2026-09-21T05:36:36.424Z",
+            "azimuth": 113.4038
+          },
+          "window": null,
+          "visible": false,
+          "candidateIntervals": 0,
+          "geometryPeakMagnitude": null
+        },
+        {
+          "rise": {
+            "at": "2026-09-21T07:05:03.842Z",
+            "azimuth": 225.5339
+          },
+          "culmination": {
+            "at": "2026-09-21T07:10:15.847Z",
+            "azimuth": 146.2727,
+            "elevation": 38.2293,
+            "sunlit": false,
+            "sunAltitude": -25.2045,
+            "magnitude": -0.7965
+          },
+          "set": {
+            "at": "2026-09-21T07:15:24.642Z",
+            "azimuth": 67.2037
+          },
+          "window": {
+            "appears": {
+              "at": "2026-09-21T07:11:16.963Z",
+              "azimuth": 102.9411,
+              "elevation": 28.9062,
+              "reason": "sunlit"
+            },
+            "disappears": {
+              "at": "2026-09-21T07:13:16.390Z",
+              "azimuth": 75.5324,
+              "elevation": 10.0006,
+              "reason": "elevation"
+            },
+            "peak": {
+              "at": "2026-09-21T07:11:16.963Z",
+              "magnitude": 0.3208
+            }
+          },
+          "visible": true,
+          "candidateIntervals": 1,
+          "geometryPeakMagnitude": 0.3283
+        },
+        {
+          "rise": {
+            "at": "2026-09-21T08:42:20.699Z",
+            "azimuth": 255.1292
+          },
+          "culmination": {
+            "at": "2026-09-21T08:46:56.950Z",
+            "azimuth": 316.4537,
+            "elevation": 14.822,
+            "sunlit": true,
+            "sunAltitude": -3.1694,
+            "magnitude": -0.257
+          },
+          "set": {
+            "at": "2026-09-21T08:51:31.168Z",
+            "azimuth": 18.1013
+          },
+          "window": null,
+          "visible": false,
+          "candidateIntervals": 0,
+          "geometryPeakMagnitude": null
+        },
+        {
+          "rise": {
+            "at": "2026-09-21T21:58:35.271Z",
+            "azimuth": 347.4998
+          },
+          "culmination": {
+            "at": "2026-09-21T22:02:56.296Z",
+            "azimuth": 44.2971,
+            "elevation": 11.6856,
+            "sunlit": false,
+            "sunAltitude": -14.693,
+            "magnitude": -0.0346
+          },
+          "set": {
+            "at": "2026-09-21T22:07:18.778Z",
+            "azimuth": 100.739
+          },
+          "window": null,
+          "visible": false,
+          "candidateIntervals": 0,
+          "geometryPeakMagnitude": null
+        },
+        {
+          "rise": {
+            "at": "2026-09-21T23:34:21.148Z",
+            "azimuth": 297.375
+          },
+          "culmination": {
+            "at": "2026-09-21T23:39:33.870Z",
+            "azimuth": 214.7264,
+            "elevation": 48.9698,
+            "sunlit": false,
+            "sunAltitude": -36.3282,
+            "magnitude": -1.4916
+          },
+          "set": {
+            "at": "2026-09-21T23:44:49.301Z",
+            "azimuth": 132.1919
+          },
+          "window": null,
+          "visible": false,
+          "candidateIntervals": 0,
+          "geometryPeakMagnitude": null
+        },
+        {
+          "rise": {
+            "at": "2026-09-22T01:12:56.285Z",
+            "azimuth": 251.2254
+          },
+          "culmination": {
+            "at": "2026-09-22T01:16:57.534Z",
+            "azimuth": 201.2251,
+            "elevation": 8.1359,
+            "sunlit": false,
+            "sunAltitude": -56.0161,
+            "magnitude": 1.4431
+          },
+          "set": {
+            "at": "2026-09-22T01:20:59.870Z",
+            "azimuth": 151.1799
+          },
+          "window": null,
+          "visible": false,
+          "candidateIntervals": 0,
+          "geometryPeakMagnitude": null
+        },
+        {
+          "rise": {
+            "at": "2026-09-22T02:52:50.943Z",
+            "azimuth": 210.1033
+          },
+          "culmination": {
+            "at": "2026-09-22T02:55:09.364Z",
+            "azimuth": 183.9244,
+            "elevation": 1.923,
+            "sunlit": false,
+            "sunAltitude": -66.7708,
+            "magnitude": 2.0795
+          },
+          "set": {
+            "at": "2026-09-22T02:57:28.002Z",
+            "azimuth": 157.7021
+          },
+          "window": null,
+          "visible": false,
+          "candidateIntervals": 0,
+          "geometryPeakMagnitude": null
+        },
+        {
+          "rise": {
+            "at": "2026-09-22T04:30:19.532Z",
+            "azimuth": 203.5999
+          },
+          "culmination": {
+            "at": "2026-09-22T04:33:32.612Z",
+            "azimuth": 165.7615,
+            "elevation": 4.235,
+            "sunlit": false,
+            "sunAltitude": -57.4156,
+            "magnitude": 1.8716
+          },
+          "set": {
+            "at": "2026-09-22T04:36:45.168Z",
+            "azimuth": 127.9126
+          },
+          "window": null,
+          "visible": false,
+          "candidateIntervals": 0,
+          "geometryPeakMagnitude": null
+        },
+        {
+          "rise": {
+            "at": "2026-09-22T06:06:23.524Z",
+            "azimuth": 218.7835
+          },
+          "culmination": {
+            "at": "2026-09-22T06:11:18.491Z",
+            "azimuth": 150.3672,
+            "elevation": 20.1365,
+            "sunlit": false,
+            "sunAltitude": -37.9911,
+            "magnitude": 0.3823
+          },
+          "set": {
+            "at": "2026-09-22T06:16:10.829Z",
+            "azimuth": 82.0328
+          },
+          "window": null,
+          "visible": false,
+          "candidateIntervals": 0,
+          "geometryPeakMagnitude": null
+        },
+        {
+          "rise": {
+            "at": "2026-09-22T07:43:06.690Z",
+            "azimuth": 243.5924
+          },
+          "culmination": {
+            "at": "2026-09-22T07:48:13.089Z",
+            "azimuth": 319.0928,
+            "elevation": 32.4909,
+            "sunlit": false,
+            "sunAltitude": -16.3634,
+            "magnitude": -1.4509
+          },
+          "set": {
+            "at": "2026-09-22T07:53:16.750Z",
+            "azimuth": 35.0108
+          },
+          "window": {
+            "appears": {
+              "at": "2026-09-22T07:48:23.401Z",
+              "azimuth": 326.6018,
+              "elevation": 32.2419,
+              "reason": "sunlit"
+            },
+            "disappears": {
+              "at": "2026-09-22T07:51:06.675Z",
+              "azimuth": 25.0637,
+              "elevation": 10.0,
+              "reason": "elevation"
+            },
+            "peak": {
+              "at": "2026-09-22T07:48:23.401Z",
+              "magnitude": -1.3911
+            }
+          },
+          "visible": true,
+          "candidateIntervals": 1,
+          "geometryPeakMagnitude": -1.3887
+        },
+        {
+          "rise": {
+            "at": "2026-09-22T21:01:09.590Z",
+            "azimuth": 9.7832
+          },
+          "culmination": {
+            "at": "2026-09-22T21:04:14.303Z",
+            "azimuth": 46.3824,
+            "elevation": 4.0456,
+            "sunlit": true,
+            "sunAltitude": -1.1943,
+            "magnitude": 0.746
+          },
+          "set": {
+            "at": "2026-09-22T21:07:19.462Z",
+            "azimuth": 82.7714
+          },
+          "window": null,
+          "visible": false,
+          "candidateIntervals": 0,
+          "geometryPeakMagnitude": null
+        },
+        {
+          "rise": {
+            "at": "2026-09-22T22:35:27.686Z",
+            "azimuth": 312.412
+          },
+          "culmination": {
+            "at": "2026-09-22T22:40:41.704Z",
+            "azimuth": 38.4472,
+            "elevation": 68.4317,
+            "sunlit": false,
+            "sunAltitude": -23.1655,
+            "magnitude": -2.4122
+          },
+          "set": {
+            "at": "2026-09-22T22:45:58.740Z",
+            "azimuth": 124.0571
+          },
+          "window": {
+            "appears": {
+              "at": "2026-09-22T22:37:31.423Z",
+              "azimuth": 314.8114,
+              "elevation": 10.0005,
+              "reason": "elevation"
+            },
+            "disappears": {
+              "at": "2026-09-22T22:38:59.736Z",
+              "azimuth": 320.0964,
+              "elevation": 24.5964,
+              "reason": "sunlit"
+            },
+            "peak": {
+              "at": "2026-09-22T22:38:59.736Z",
+              "magnitude": -0.0779
+            }
+          },
+          "visible": true,
+          "candidateIntervals": 1,
+          "geometryPeakMagnitude": -0.0772
+        },
+        {
+          "rise": {
+            "at": "2026-09-23T00:13:15.606Z",
+            "azimuth": 266.098
+          },
+          "culmination": {
+            "at": "2026-09-23T00:17:48.759Z",
+            "azimuth": 206.0797,
+            "elevation": 13.2795,
+            "sunlit": false,
+            "sunAltitude": -44.3453,
+            "magnitude": 0.9967
+          },
+          "set": {
+            "at": "2026-09-23T00:22:23.667Z",
+            "azimuth": 145.9797
+          },
+          "window": null,
+          "visible": false,
+          "candidateIntervals": 0,
+          "geometryPeakMagnitude": null
+        },
+        {
+          "rise": {
+            "at": "2026-09-23T01:53:02.659Z",
+            "azimuth": 221.3402
+          },
+          "culmination": {
+            "at": "2026-09-23T01:55:47.094Z",
+            "azimuth": 189.7686,
+            "elevation": 2.8583,
+            "sunlit": false,
+            "sunAltitude": -61.8605,
+            "magnitude": 2.0119
+          },
+          "set": {
+            "at": "2026-09-23T01:58:31.838Z",
+            "azimuth": 158.1601
+          },
+          "window": null,
+          "visible": false,
+          "candidateIntervals": 0,
+          "geometryPeakMagnitude": null
+        },
+        {
+          "rise": {
+            "at": "2026-09-23T03:31:34.534Z",
+            "azimuth": 201.6413
+          },
+          "culmination": {
+            "at": "2026-09-23T03:34:12.627Z",
+            "azimuth": 171.4262,
+            "elevation": 2.5952,
+            "sunlit": false,
+            "sunAltitude": -64.8962,
+            "magnitude": 2.0234
+          },
+          "set": {
+            "at": "2026-09-23T03:36:50.344Z",
+            "azimuth": 141.2322
+          },
+          "window": null,
+          "visible": false,
+          "candidateIntervals": 0,
+          "geometryPeakMagnitude": null
+        },
+        {
+          "rise": {
+            "at": "2026-09-23T05:07:45.424Z",
+            "azimuth": 212.8944
+          },
+          "culmination": {
+            "at": "2026-09-23T05:12:13.868Z",
+            "azimuth": 154.8869,
+            "elevation": 11.9925,
+            "sunlit": false,
+            "sunAltitude": -49.9576,
+            "magnitude": 1.0756
+          },
+          "set": {
+            "at": "2026-09-23T05:16:40.428Z",
+            "azimuth": 96.9102
+          },
+          "window": null,
+          "visible": false,
+          "candidateIntervals": 0,
+          "geometryPeakMagnitude": null
+        },
+        {
+          "rise": {
+            "at": "2026-09-23T06:44:06.931Z",
+            "azimuth": 234.2477
+          },
+          "culmination": {
+            "at": "2026-09-23T06:49:24.038Z",
+            "azimuth": 321.9312,
+            "elevation": 81.9175,
+            "sunlit": false,
+            "sunAltitude": -29.3666,
+            "magnitude": -2.5237
+          },
+          "set": {
+            "at": "2026-09-23T06:54:37.716Z",
+            "azimuth": 50.5681
+          },
+          "window": null,
+          "visible": false,
+          "candidateIntervals": 0,
+          "geometryPeakMagnitude": null
+        },
+        {
+          "rise": {
+            "at": "2026-09-23T08:22:28.915Z",
+            "azimuth": 273.1108
+          },
+          "culmination": {
+            "at": "2026-09-23T08:25:52.892Z",
+            "azimuth": 313.9816,
+            "elevation": 5.2341,
+            "sunlit": true,
+            "sunAltitude": -7.5236,
+            "magnitude": 0.5938
+          },
+          "set": {
+            "at": "2026-09-23T08:29:16.271Z",
+            "azimuth": 355.1131
+          },
+          "window": null,
+          "visible": false,
+          "candidateIntervals": 0,
+          "geometryPeakMagnitude": null
+        },
+        {
+          "rise": {
+            "at": "2026-09-23T21:36:51.630Z",
+            "azimuth": 328.134
+          },
+          "culmination": {
+            "at": "2026-09-23T21:41:52.030Z",
+            "azimuth": 41.3697,
+            "elevation": 27.7611,
+            "sunlit": true,
+            "sunAltitude": -9.7295,
+            "magnitude": -1.1594
+          },
+          "set": {
+            "at": "2026-09-23T21:46:55.298Z",
+            "azimuth": 114.3855
+          },
+          "window": {
+            "appears": {
+              "at": "2026-09-23T21:39:04.800Z",
+              "azimuth": 340.1682,
+              "elevation": 10.0006,
+              "reason": "elevation"
+            },
+            "disappears": {
+              "at": "2026-09-23T21:43:52.963Z",
+              "azimuth": 93.87,
+              "elevation": 15.1274,
+              "reason": "sunlit"
+            },
+            "peak": {
+              "at": "2026-09-23T21:42:09.195Z",
+              "magnitude": -1.1945
+            }
+          },
+          "visible": true,
+          "candidateIntervals": 1,
+          "geometryPeakMagnitude": -1.1945
+        },
+        {
+          "rise": {
+            "at": "2026-09-23T23:13:46.440Z",
+            "azimuth": 280.9482
+          },
+          "culmination": {
+            "at": "2026-09-23T23:18:43.929Z",
+            "azimuth": 210.446,
+            "elevation": 22.6211,
+            "sunlit": false,
+            "sunAltitude": -31.5456,
+            "magnitude": 0.2545
+          },
+          "set": {
+            "at": "2026-09-23T23:23:43.606Z",
+            "azimuth": 139.9281
+          },
+          "window": {
+            "appears": {
+              "at": "2026-09-23T23:16:06.667Z",
+              "azimuth": 265.3526,
+              "elevation": 10.0007,
+              "reason": "elevation"
+            },
+            "disappears": {
+              "at": "2026-09-23T23:16:12.246Z",
+              "azimuth": 264.3371,
+              "elevation": 10.502,
+              "reason": "sunlit"
+            },
+            "peak": {
+              "at": "2026-09-23T23:16:12.246Z",
+              "magnitude": 2.161
+            }
+          },
+          "visible": true,
+          "candidateIntervals": 1,
+          "geometryPeakMagnitude": 2.1693
+        }
+      ]
+    },
+    {
+      "key": "bangkok-hubble-3-days",
+      "elements": "hubble-2026-09-19",
+      "observer": {
+        "latitude": 13.7563,
+        "longitude": 100.5018,
+        "altitude": 2
+      },
+      "standardMagnitude": 2.2,
+      "from": "2026-09-19T12:00:00.000Z",
+      "to": "2026-09-22T12:00:00.000Z",
+      "passes": [
+        {
+          "rise": {
+            "at": "2026-09-19T12:53:58.493Z",
+            "azimuth": 306.5888
+          },
+          "culmination": {
+            "at": "2026-09-19T12:59:40.693Z",
+            "azimuth": 22.5429,
+            "elevation": 32.8969,
+            "sunlit": false,
+            "sunAltitude": -25.7829,
+            "magnitude": 1.3318
+          },
+          "set": {
+            "at": "2026-09-19T13:05:22.572Z",
+            "azimuth": 98.2488
+          },
+          "window": {
+            "appears": {
+              "at": "2026-09-19T12:56:39.206Z",
+              "azimuth": 319.1845,
+              "elevation": 12.0828,
+              "reason": "brightness"
+            },
+            "disappears": {
+              "at": "2026-09-19T12:58:08.475Z",
+              "azimuth": 337.6656,
+              "elevation": 23.1788,
+              "reason": "sunlit"
+            },
+            "peak": {
+              "at": "2026-09-19T12:58:08.475Z",
+              "magnitude": 2.5647
+            }
+          },
+          "visible": true,
+          "candidateIntervals": 1,
+          "geometryPeakMagnitude": 2.5809
+        },
+        {
+          "rise": {
+            "at": "2026-09-19T14:33:32.548Z",
+            "azimuth": 286.8273
+          },
+          "culmination": {
+            "at": "2026-09-19T14:39:17.170Z",
+            "azimuth": 209.2181,
+            "elevation": 38.7491,
+            "sunlit": false,
+            "sunAltitude": -49.3374,
+            "magnitude": 1.1068
+          },
+          "set": {
+            "at": "2026-09-19T14:45:02.244Z",
+            "azimuth": 131.3665
+          },
+          "window": null,
+          "visible": false,
+          "candidateIntervals": 0,
+          "geometryPeakMagnitude": null
+        },
+        {
+          "rise": {
+            "at": "2026-09-19T16:14:58.691Z",
+            "azimuth": 251.7963
+          },
+          "culmination": {
+            "at": "2026-09-19T16:18:44.767Z",
+            "azimuth": 211.3562,
+            "elevation": 5.4198,
+            "sunlit": false,
+            "sunAltitude": -70.0333,
+            "magnitude": 3.4717
+          },
+          "set": {
+            "at": "2026-09-19T16:22:31.128Z",
+            "azimuth": 170.8685
+          },
+          "window": null,
+          "visible": false,
+          "candidateIntervals": 0,
+          "geometryPeakMagnitude": null
+        },
+        {
+          "rise": {
+            "at": "2026-09-20T02:24:09.729Z",
+            "azimuth": 175.479
+          },
+          "culmination": {
+            "at": "2026-09-20T02:26:45.701Z",
+            "azimuth": 148.7922,
+            "elevation": 2.194,
+            "sunlit": true,
+            "sunAltitude": 47.3355,
+            "magnitude": 4.7325
+          },
+          "set": {
+            "at": "2026-09-20T02:29:21.433Z",
+            "azimuth": 122.1518
+          },
+          "window": null,
+          "visible": false,
+          "candidateIntervals": 0,
+          "geometryPeakMagnitude": null
+        },
+        {
+          "rise": {
+            "at": "2026-09-20T04:00:41.934Z",
+            "azimuth": 220.8717
+          },
+          "culmination": {
+            "at": "2026-09-20T04:06:15.624Z",
+            "azimuth": 149.8763,
+            "elevation": 25.6872,
+            "sunlit": true,
+            "sunAltitude": 69.4828,
+            "magnitude": 3.3946
+          },
+          "set": {
+            "at": "2026-09-20T04:11:48.644Z",
+            "azimuth": 79.1325
+          },
+          "window": null,
+          "visible": false,
+          "candidateIntervals": 0,
+          "geometryPeakMagnitude": null
+        },
+        {
+          "rise": {
+            "at": "2026-09-20T05:39:58.345Z",
+            "azimuth": 254.4478
+          },
+          "culmination": {
+            "at": "2026-09-20T05:45:47.661Z",
+            "azimuth": 335.5518,
+            "elevation": 46.9824,
+            "sunlit": true,
+            "sunAltitude": 74.7439,
+            "magnitude": 2.1994
+          },
+          "set": {
+            "at": "2026-09-20T05:51:37.080Z",
+            "azimuth": 56.9872
+          },
+          "window": null,
+          "visible": false,
+          "candidateIntervals": 0,
+          "geometryPeakMagnitude": null
+        },
+        {
+          "rise": {
+            "at": "2026-09-20T07:20:44.383Z",
+            "azimuth": 286.1409
+          },
+          "culmination": {
+            "at": "2026-09-20T07:25:46.763Z",
+            "azimuth": 345.4982,
+            "elevation": 13.7926,
+            "sunlit": true,
+            "sunAltitude": 54.4387,
+            "magnitude": 3.1094
+          },
+          "set": {
+            "at": "2026-09-20T07:30:49.168Z",
+            "azimuth": 44.9238
+          },
+          "window": null,
+          "visible": false,
+          "candidateIntervals": 0,
+          "geometryPeakMagnitude": null
+        },
+        {
+          "rise": {
+            "at": "2026-09-20T09:01:54.570Z",
+            "azimuth": 310.2171
+          },
+          "culmination": {
+            "at": "2026-09-20T09:06:14.832Z",
+            "azimuth": 358.3066,
+            "elevation": 7.9161,
+            "sunlit": true,
+            "sunAltitude": 30.5851,
+            "magnitude": 3.414
+          },
+          "set": {
+            "at": "2026-09-20T09:10:35.200Z",
+            "azimuth": 46.4452
+          },
+          "window": null,
+          "visible": false,
+          "candidateIntervals": 0,
+          "geometryPeakMagnitude": null
+        },
+        {
+          "rise": {
+            "at": "2026-09-20T10:41:59.075Z",
+            "azimuth": 316.2702
+          },
+          "culmination": {
+            "at": "2026-09-20T10:46:47.131Z",
+            "azimuth": 11.5201,
+            "elevation": 11.2687,
+            "sunlit": true,
+            "sunAltitude": 6.2212,
+            "magnitude": 2.9474
+          },
+          "set": {
+            "at": "2026-09-20T10:51:35.108Z",
+            "azimuth": 66.7617
+          },
+          "window": null,
+          "visible": false,
+          "candidateIntervals": 0,
+          "geometryPeakMagnitude": null
+        },
+        {
+          "rise": {
+            "at": "2026-09-20T12:21:12.933Z",
+            "azimuth": 306.905
+          },
+          "culmination": {
+            "at": "2026-09-20T12:26:54.268Z",
+            "azimuth": 22.3305,
+            "elevation": 31.9022,
+            "sunlit": true,
+            "sunAltitude": -18.0684,
+            "magnitude": 1.3992
+          },
+          "set": {
+            "at": "2026-09-20T12:32:35.282Z",
+            "azimuth": 97.554
+          },
+          "window": {
+            "appears": {
+              "at": "2026-09-20T12:23:58.651Z",
+              "azimuth": 320.5715,
+              "elevation": 12.5058,
+              "reason": "brightness"
+            },
+            "disappears": {
+              "at": "2026-09-20T12:27:19.824Z",
+              "azimuth": 37.1925,
+              "elevation": 30.8992,
+              "reason": "sunlit"
+            },
+            "peak": {
+              "at": "2026-09-20T12:27:19.824Z",
+              "magnitude": 1.3101
+            }
+          },
+          "visible": true,
+          "candidateIntervals": 1,
+          "geometryPeakMagnitude": 1.3107
+        },
+        {
+          "rise": {
+            "at": "2026-09-20T14:00:45.811Z",
+            "azimuth": 287.3594
+          },
+          "culmination": {
+            "at": "2026-09-20T14:06:31.168Z",
+            "azimuth": 209.1597,
+            "elevation": 40.3812,
+            "sunlit": false,
+            "sunAltitude": -41.9204,
+            "magnitude": 1.1215
+          },
+          "set": {
+            "at": "2026-09-20T14:12:16.990Z",
+            "azimuth": 130.6416
+          },
+          "window": null,
+          "visible": false,
+          "candidateIntervals": 0,
+          "geometryPeakMagnitude": null
+        },
+        {
+          "rise": {
+            "at": "2026-09-20T15:42:07.566Z",
+            "azimuth": 252.8778
+          },
+          "culmination": {
+            "at": "2026-09-20T15:45:58.554Z",
+            "azimuth": 211.3747,
+            "elevation": 5.7541,
+            "sunlit": false,
+            "sunAltitude": -64.2602,
+            "magnitude": 3.5178
+          },
+          "set": {
+            "at": "2026-09-20T15:49:50.028Z",
+            "azimuth": 169.7845
+          },
+          "window": null,
+          "visible": false,
+          "candidateIntervals": 0,
+          "geometryPeakMagnitude": null
+        },
+        {
+          "rise": {
+            "at": "2026-09-21T01:51:32.397Z",
+            "azimuth": 173.8185
+          },
+          "culmination": {
+            "at": "2026-09-21T01:53:59.065Z",
+            "azimuth": 148.828,
+            "elevation": 1.9144,
+            "sunlit": true,
+            "sunAltitude": 39.5169,
+            "magnitude": 4.8267
+          },
+          "set": {
+            "at": "2026-09-21T01:56:25.617Z",
+            "azimuth": 123.8622
+          },
+          "window": null,
+          "visible": false,
+          "candidateIntervals": 0,
+          "geometryPeakMagnitude": null
+        },
+        {
+          "rise": {
+            "at": "2026-09-21T03:27:57.020Z",
+            "azimuth": 220.1165
+          },
+          "culmination": {
+            "at": "2026-09-21T03:33:29.199Z",
+            "azimuth": 149.8597,
+            "elevation": 24.7467,
+            "sunlit": true,
+            "sunAltitude": 62.5341,
+            "magnitude": 3.541
+          },
+          "set": {
+            "at": "2026-09-21T03:39:00.989Z",
+            "azimuth": 79.7362
+          },
+          "window": null,
+          "visible": false,
+          "candidateIntervals": 0,
+          "geometryPeakMagnitude": null
+        },
+        {
+          "rise": {
+            "at": "2026-09-21T05:07:11.062Z",
+            "azimuth": 253.7469
+          },
+          "culmination": {
+            "at": "2026-09-21T05:13:01.024Z",
+            "azimuth": 335.4245,
+            "elevation": 48.7874,
+            "sunlit": true,
+            "sunAltitude": 76.9297,
+            "magnitude": 2.1094
+          },
+          "set": {
+            "at": "2026-09-21T05:18:51.006Z",
+            "azimuth": 57.3545
+          },
+          "window": null,
+          "visible": false,
+          "candidateIntervals": 0,
+          "geometryPeakMagnitude": null
+        },
+        {
+          "rise": {
+            "at": "2026-09-21T06:47:55.643Z",
+            "azimuth": 285.4965
+          },
+          "culmination": {
+            "at": "2026-09-21T06:52:59.280Z",
+            "azimuth": 345.2215,
+            "elevation": 14.0649,
+            "sunlit": true,
+            "sunAltitude": 61.6044,
+            "magnitude": 3.051
+          },
+          "set": {
+            "at": "2026-09-21T06:58:03.124Z",
+            "azimuth": 45.0731
+          },
+          "window": null,
+          "visible": false,
+          "candidateIntervals": 0,
+          "geometryPeakMagnitude": null
+        },
+        {
+          "rise": {
+            "at": "2026-09-21T08:29:06.350Z",
+            "azimuth": 309.8561
+          },
+          "culmination": {
+            "at": "2026-09-21T08:33:26.927Z",
+            "azimuth": 358.0037,
+            "elevation": 7.9438,
+            "sunlit": true,
+            "sunAltitude": 38.269,
+            "magnitude": 3.3945
+          },
+          "set": {
+            "at": "2026-09-21T08:37:47.647Z",
+            "azimuth": 46.2194
+          },
+          "window": null,
+          "visible": false,
+          "candidateIntervals": 0,
+          "geometryPeakMagnitude": null
+        },
+        {
+          "rise": {
+            "at": "2026-09-21T10:09:12.599Z",
+            "azimuth": 316.3273
+          },
+          "culmination": {
+            "at": "2026-09-21T10:13:59.649Z",
+            "azimuth": 11.288,
+            "elevation": 11.0922,
+            "sunlit": true,
+            "sunAltitude": 14.0049,
+            "magnitude": 2.9588
+          },
+          "set": {
+            "at": "2026-09-21T10:18:46.293Z",
+            "azimuth": 66.1674
+          },
+          "window": null,
+          "visible": false,
+          "candidateIntervals": 0,
+          "geometryPeakMagnitude": null
+        },
+        {
+          "rise": {
+            "at": "2026-09-21T11:48:26.820Z",
+            "azimuth": 307.2172
+          },
+          "culmination": {
+            "at": "2026-09-21T11:54:07.209Z",
+            "azimuth": 22.0711,
+            "elevation": 30.9524,
+            "sunlit": true,
+            "sunAltitude": -10.31,
+            "magnitude": 1.4701
+          },
+          "set": {
+            "at": "2026-09-21T11:59:47.420Z",
+            "azimuth": 96.857
+          },
+          "window": {
+            "appears": {
+              "at": "2026-09-21T11:51:15.258Z",
+              "azimuth": 321.6692,
+              "elevation": 12.6896,
+              "reason": "brightness"
+            },
+            "disappears": {
+              "at": "2026-09-21T11:56:35.079Z",
+              "azimuth": 78.526,
+              "elevation": 15.2805,
+              "reason": "sunlit"
+            },
+            "peak": {
+              "at": "2026-09-21T11:54:38.900Z",
+              "magnitude": 1.3707
+            }
+          },
+          "visible": true,
+          "candidateIntervals": 1,
+          "geometryPeakMagnitude": 1.3707
+        },
+        {
+          "rise": {
+            "at": "2026-09-21T13:27:58.536Z",
+            "azimuth": 287.8892
+          },
+          "culmination": {
+            "at": "2026-09-21T13:33:44.743Z",
+            "azimuth": 209.0073,
+            "elevation": 42.1104,
+            "sunlit": false,
+            "sunAltitude": -34.3422,
+            "magnitude": 1.1469
+          },
+          "set": {
+            "at": "2026-09-21T13:39:31.187Z",
+            "azimuth": 129.9142
+          },
+          "window": null,
+          "visible": false,
+          "candidateIntervals": 0,
+          "geometryPeakMagnitude": 4.3896
+        },
+        {
+          "rise": {
+            "at": "2026-09-21T15:09:16.068Z",
+            "azimuth": 253.9393
+          },
+          "culmination": {
+            "at": "2026-09-21T15:13:11.917Z",
+            "azimuth": 211.3702,
+            "elevation": 6.0969,
+            "sunlit": false,
+            "sunAltitude": -57.5141,
+            "magnitude": 3.5716
+          },
+          "set": {
+            "at": "2026-09-21T15:17:08.038Z",
+            "azimuth": 168.744
+          },
+          "window": null,
+          "visible": false,
+          "candidateIntervals": 0,
+          "geometryPeakMagnitude": null
+        },
+        {
+          "rise": {
+            "at": "2026-09-22T01:18:55.361Z",
+            "azimuth": 172.0283
+          },
+          "culmination": {
+            "at": "2026-09-22T01:21:11.794Z",
+            "azimuth": 148.8778,
+            "elevation": 1.6368,
+            "sunlit": true,
+            "sunAltitude": 31.6366,
+            "magnitude": 4.9001
+          },
+          "set": {
+            "at": "2026-09-22T01:23:28.410Z",
+            "azimuth": 125.7007
+          },
+          "window": null,
+          "visible": false,
+          "candidateIntervals": 0,
+          "geometryPeakMagnitude": null
+        },
+        {
+          "rise": {
+            "at": "2026-09-22T02:55:11.620Z",
+            "azimuth": 219.3553
+          },
+          "culmination": {
+            "at": "2026-09-22T03:00:42.351Z",
+            "azimuth": 149.7824,
+            "elevation": 23.8407,
+            "sunlit": true,
+            "sunAltitude": 55.1111,
+            "magnitude": 3.647
+          },
+          "set": {
+            "at": "2026-09-22T03:06:12.697Z",
+            "azimuth": 80.3504
+          },
+          "window": null,
+          "visible": false,
+          "candidateIntervals": 0,
+          "geometryPeakMagnitude": null
+        },
+        {
+          "rise": {
+            "at": "2026-09-22T04:34:23.257Z",
+            "azimuth": 253.0427
+          },
+          "culmination": {
+            "at": "2026-09-22T04:40:13.753Z",
+            "azimuth": 335.2052,
+            "elevation": 50.6985,
+            "sunlit": true,
+            "sunAltitude": 74.5713,
+            "magnitude": 1.9992
+          },
+          "set": {
+            "at": "2026-09-22T04:46:04.361Z",
+            "azimuth": 57.7273
+          },
+          "window": null,
+          "visible": false,
+          "candidateIntervals": 0,
+          "geometryPeakMagnitude": null
+        },
+        {
+          "rise": {
+            "at": "2026-09-22T06:15:06.317Z",
+            "azimuth": 284.8433
+          },
+          "culmination": {
+            "at": "2026-09-22T06:20:11.375Z",
+            "azimuth": 344.9828,
+            "elevation": 14.3477,
+            "sunlit": true,
+            "sunAltitude": 68.1731,
+            "magnitude": 2.9897
+          },
+          "set": {
+            "at": "2026-09-22T06:25:16.530Z",
+            "azimuth": 45.2275
+          },
+          "window": null,
+          "visible": false,
+          "candidateIntervals": 0,
+          "geometryPeakMagnitude": null
+        },
+        {
+          "rise": {
+            "at": "2026-09-22T07:56:17.554Z",
+            "azimuth": 309.4872
+          },
+          "culmination": {
+            "at": "2026-09-22T08:00:38.599Z",
+            "azimuth": 357.7313,
+            "elevation": 7.9765,
+            "sunlit": true,
+            "sunAltitude": 45.8534,
+            "magnitude": 3.3746
+          },
+          "set": {
+            "at": "2026-09-22T08:04:59.601Z",
+            "azimuth": 46.0045
+          },
+          "window": null,
+          "visible": false,
+          "candidateIntervals": 0,
+          "geometryPeakMagnitude": null
+        },
+        {
+          "rise": {
+            "at": "2026-09-22T09:36:25.527Z",
+            "azimuth": 316.3755
+          },
+          "culmination": {
+            "at": "2026-09-22T09:41:11.321Z",
+            "azimuth": 10.9771,
+            "elevation": 10.9225,
+            "sunlit": true,
+            "sunAltitude": 21.7722,
+            "magnitude": 2.9736
+          },
+          "set": {
+            "at": "2026-09-22T09:45:56.984Z",
+            "azimuth": 65.5815
+          },
+          "window": null,
+          "visible": false,
+          "candidateIntervals": 0,
+          "geometryPeakMagnitude": null
+        },
+        {
+          "rise": {
+            "at": "2026-09-22T11:15:40.132Z",
+            "azimuth": 307.5245
+          },
+          "culmination": {
+            "at": "2026-09-22T11:21:19.726Z",
+            "azimuth": 21.8887,
+            "elevation": 30.0451,
+            "sunlit": true,
+            "sunAltitude": -2.528,
+            "magnitude": 1.5425
+          },
+          "set": {
+            "at": "2026-09-22T11:26:59.014Z",
+            "azimuth": 96.1594
+          },
+          "window": null,
+          "visible": false,
+          "candidateIntervals": 0,
+          "geometryPeakMagnitude": null
+        }
+      ]
+    },
+    {
+      "key": "madrid-dusk-2-days",
+      "elements": "iss-2026-09-19",
+      "observer": {
+        "latitude": 40.4168,
+        "longitude": -3.7038,
+        "altitude": 657
+      },
+      "standardMagnitude": -1.8,
+      "from": "2026-09-25T12:00:00.000Z",
+      "to": "2026-09-27T12:00:00.000Z",
+      "passes": [
+        {
+          "rise": {
+            "at": "2026-09-25T12:01:41.366Z",
+            "azimuth": 181.8731
+          },
+          "culmination": {
+            "at": "2026-09-25T12:06:02.956Z",
+            "azimuth": 128.0527,
+            "elevation": 10.6512,
+            "sunlit": true,
+            "sunAltitude": 48.6083,
+            "magnitude": -0.135
+          },
+          "set": {
+            "at": "2026-09-25T12:10:25.411Z",
+            "azimuth": 74.4041
+          },
+          "window": null,
+          "visible": false,
+          "candidateIntervals": 0,
+          "geometryPeakMagnitude": null
+        },
+        {
+          "rise": {
+            "at": "2026-09-25T13:36:54.768Z",
+            "azimuth": 233.6031
+          },
+          "culmination": {
+            "at": "2026-09-25T13:42:22.014Z",
+            "azimuth": 323.1851,
+            "elevation": 83.5237,
+            "sunlit": true,
+            "sunAltitude": 43.1743,
+            "magnitude": -2.5039
+          },
+          "set": {
+            "at": "2026-09-25T13:47:50.703Z",
+            "azimuth": 53.2094
+          },
+          "window": null,
+          "visible": false,
+          "candidateIntervals": 0,
+          "geometryPeakMagnitude": null
+        },
+        {
+          "rise": {
+            "at": "2026-09-25T15:14:34.928Z",
+            "azimuth": 275.245
+          },
+          "culmination": {
+            "at": "2026-09-25T15:19:34.591Z",
+            "azimuth": 341.594,
+            "elevation": 18.4187,
+            "sunlit": true,
+            "sunAltitude": 29.6638,
+            "magnitude": -1.6308
+          },
+          "set": {
+            "at": "2026-09-25T15:24:34.643Z",
+            "azimuth": 48.0332
+          },
+          "window": null,
+          "visible": false,
+          "candidateIntervals": 0,
+          "geometryPeakMagnitude": null
+        },
+        {
+          "rise": {
+            "at": "2026-09-25T16:52:46.604Z",
+            "azimuth": 303.8797
+          },
+          "culmination": {
+            "at": "2026-09-25T16:57:24.380Z",
+            "azimuth": 2.1198,
+            "elevation": 12.3244,
+            "sunlit": true,
+            "sunAltitude": 12.3462,
+            "magnitude": -1.3109
+          },
+          "set": {
+            "at": "2026-09-25T17:02:01.395Z",
+            "azimuth": 60.3633
+          },
+          "window": null,
+          "visible": false,
+          "candidateIntervals": 0,
+          "geometryPeakMagnitude": null
+        },
+        {
+          "rise": {
+            "at": "2026-09-25T18:30:00.981Z",
+            "azimuth": 312.1075
+          },
+          "culmination": {
+            "at": "2026-09-25T18:35:09.153Z",
+            "azimuth": 22.2941,
+            "elevation": 22.4466,
+            "sunlit": true,
+            "sunAltitude": -6.1724,
+            "magnitude": -2.2115
+          },
+          "set": {
+            "at": "2026-09-25T18:40:15.492Z",
+            "azimuth": 92.5576
+          },
+          "window": {
+            "appears": {
+              "at": "2026-09-25T18:34:14.763Z",
+              "azimuth": 357.8735,
+              "elevation": 20.0653,
+              "reason": "night"
+            },
+            "disappears": {
+              "at": "2026-09-25T18:37:52.780Z",
+              "azimuth": 76.7649,
+              "elevation": 10.0002,
+              "reason": "elevation"
+            },
+            "peak": {
+              "at": "2026-09-25T18:35:46.120Z",
+              "magnitude": -2.3191
+            }
+          },
+          "visible": true,
+          "candidateIntervals": 1,
+          "geometryPeakMagnitude": -2.3191
+        },
+        {
+          "rise": {
+            "at": "2026-09-25T20:06:45.329Z",
+            "azimuth": 303.946
+          },
+          "culmination": {
+            "at": "2026-09-25T20:12:11.068Z",
+            "azimuth": 220.1065,
+            "elevation": 61.3291,
+            "sunlit": false,
+            "sunAltitude": -24.1887,
+            "magnitude": -3.633
+          },
+          "set": {
+            "at": "2026-09-25T20:17:33.826Z",
+            "azimuth": 136.0684
+          },
+          "window": {
+            "appears": {
+              "at": "2026-09-25T20:08:51.809Z",
+              "azimuth": 300.8504,
+              "elevation": 10.0001,
+              "reason": "elevation"
+            },
+            "disappears": {
+              "at": "2026-09-25T20:11:13.371Z",
+              "azimuth": 281.8289,
+              "elevation": 39.9068,
+              "reason": "sunlit"
+            },
+            "peak": {
+              "at": "2026-09-25T20:11:13.371Z",
+              "magnitude": -2.1961
+            }
+          },
+          "visible": true,
+          "candidateIntervals": 1,
+          "geometryPeakMagnitude": -2.171
+        },
+        {
+          "rise": {
+            "at": "2026-09-25T21:44:42.943Z",
+            "azimuth": 276.8226
+          },
+          "culmination": {
+            "at": "2026-09-25T21:48:18.418Z",
+            "azimuth": 234.9021,
+            "elevation": 5.8055,
+            "sunlit": false,
+            "sunAltitude": -39.7971,
+            "magnitude": -0.4258
+          },
+          "set": {
+            "at": "2026-09-25T21:51:53.307Z",
+            "azimuth": 192.7506
+          },
+          "window": null,
+          "visible": false,
+          "candidateIntervals": 0,
+          "geometryPeakMagnitude": null
+        },
+        {
+          "rise": {
+            "at": "2026-09-26T11:15:10.877Z",
+            "azimuth": 164.2811
+          },
+          "culmination": {
+            "at": "2026-09-26T11:18:36.675Z",
+            "azimuth": 124.6222,
+            "elevation": 5.0955,
+            "sunlit": true,
+            "sunAltitude": 46.8471,
+            "magnitude": 0.5497
+          },
+          "set": {
+            "at": "2026-09-26T11:22:02.923Z",
+            "azimuth": 85.0901
+          },
+          "window": null,
+          "visible": false,
+          "candidateIntervals": 0,
+          "geometryPeakMagnitude": null
+        },
+        {
+          "rise": {
+            "at": "2026-09-26T12:49:18.169Z",
+            "azimuth": 221.8867
+          },
+          "culmination": {
+            "at": "2026-09-26T12:54:42.353Z",
+            "azimuth": 139.3321,
+            "elevation": 55.4125,
+            "sunlit": true,
+            "sunAltitude": 46.7618,
+            "magnitude": -1.5128
+          },
+          "set": {
+            "at": "2026-09-26T13:00:08.209Z",
+            "azimuth": 56.7192
+          },
+          "window": null,
+          "visible": false,
+          "candidateIntervals": 0,
+          "geometryPeakMagnitude": null
+        },
+        {
+          "rise": {
+            "at": "2026-09-26T14:26:32.188Z",
+            "azimuth": 265.6035
+          },
+          "culmination": {
+            "at": "2026-09-26T14:31:41.968Z",
+            "azimuth": 336.7347,
+            "elevation": 23.6889,
+            "sunlit": true,
+            "sunAltitude": 36.6371,
+            "magnitude": -1.97
+          },
+          "set": {
+            "at": "2026-09-26T14:36:52.441Z",
+            "azimuth": 47.96
+          },
+          "window": null,
+          "visible": false,
+          "candidateIntervals": 0,
+          "geometryPeakMagnitude": null
+        },
+        {
+          "rise": {
+            "at": "2026-09-26T16:04:47.309Z",
+            "azimuth": 298.4993
+          },
+          "culmination": {
+            "at": "2026-09-26T16:09:25.486Z",
+            "azimuth": 356.8539,
+            "elevation": 12.4132,
+            "sunlit": true,
+            "sunAltitude": 20.7754,
+            "magnitude": -1.3289
+          },
+          "set": {
+            "at": "2026-09-26T16:14:03.301Z",
+            "azimuth": 55.2635
+          },
+          "window": null,
+          "visible": false,
+          "candidateIntervals": 0,
+          "geometryPeakMagnitude": null
+        },
+        {
+          "rise": {
+            "at": "2026-09-26T17:42:17.912Z",
+            "azimuth": 311.8285
+          },
+          "culmination": {
+            "at": "2026-09-26T17:47:16.112Z",
+            "azimuth": 17.4594,
+            "elevation": 17.6683,
+            "sunlit": true,
+            "sunAltitude": 2.6268,
+            "magnitude": -1.8748
+          },
+          "set": {
+            "at": "2026-09-26T17:52:12.534Z",
+            "azimuth": 83.0354
+          },
+          "window": null,
+          "visible": false,
+          "candidateIntervals": 0,
+          "geometryPeakMagnitude": null
+        },
+        {
+          "rise": {
+            "at": "2026-09-26T19:19:02.914Z",
+            "azimuth": 307.3122
+          },
+          "culmination": {
+            "at": "2026-09-26T19:24:30.779Z",
+            "azimuth": 35.8485,
+            "elevation": 76.1819,
+            "sunlit": true,
+            "sunAltitude": -15.8041,
+            "magnitude": -3.9546
+          },
+          "set": {
+            "at": "2026-09-26T19:29:55.687Z",
+            "azimuth": 124.3944
+          },
+          "window": {
+            "appears": {
+              "at": "2026-09-26T19:21:08.954Z",
+              "azimuth": 309.2719,
+              "elevation": 10.0007,
+              "reason": "elevation"
+            },
+            "disappears": {
+              "at": "2026-09-26T19:25:35.528Z",
+              "azimuth": 113.91,
+              "elevation": 39.565,
+              "reason": "sunlit"
+            },
+            "peak": {
+              "at": "2026-09-26T19:24:46.132Z",
+              "magnitude": -4.0455
+            }
+          },
+          "visible": true,
+          "candidateIntervals": 1,
+          "geometryPeakMagnitude": -4.0455
+        },
+        {
+          "rise": {
+            "at": "2026-09-26T20:56:24.041Z",
+            "azimuth": 286.9345
+          },
+          "culmination": {
+            "at": "2026-09-26T21:00:51.509Z",
+            "azimuth": 231.4578,
+            "elevation": 11.63,
+            "sunlit": false,
+            "sunAltitude": -32.8889,
+            "magnitude": -0.8655
+          },
+          "set": {
+            "at": "2026-09-26T21:05:17.657Z",
+            "azimuth": 175.6709
+          },
+          "window": null,
+          "visible": false,
+          "candidateIntervals": 0,
+          "geometryPeakMagnitude": null
+        },
+        {
+          "rise": {
+            "at": "2026-09-27T10:29:46.733Z",
+            "azimuth": 136.8797
+          },
+          "culmination": {
+            "at": "2026-09-27T10:31:12.694Z",
+            "azimuth": 121.3285,
+            "elevation": 0.7136,
+            "sunlit": true,
+            "sunAltitude": 42.6507,
+            "magnitude": 1.1993
+          },
+          "set": {
+            "at": "2026-09-27T10:32:38.660Z",
+            "azimuth": 105.8122
+          },
+          "window": null,
+          "visible": false,
+          "candidateIntervals": 0,
+          "geometryPeakMagnitude": null
+        }
+      ]
+    },
+    {
+      "key": "lima-hubble-2-days",
+      "elements": "hubble-2026-09-19",
+      "observer": {
+        "latitude": -12.0464,
+        "longitude": -77.0428,
+        "altitude": 154
+      },
+      "standardMagnitude": 2.2,
+      "from": "2026-09-24T12:00:00.000Z",
+      "to": "2026-09-26T12:00:00.000Z",
+      "passes": [
+        {
+          "rise": {
+            "at": "2026-09-24T12:40:32.286Z",
+            "azimuth": 263.1909
+          },
+          "culmination": {
+            "at": "2026-09-24T12:45:55.780Z",
+            "azimuth": 329.1335,
+            "elevation": 19.8982,
+            "sunlit": true,
+            "sunAltitude": 25.946,
+            "magnitude": 2.2637
+          },
+          "set": {
+            "at": "2026-09-24T12:51:18.094Z",
+            "azimuth": 35.3709
+          },
+          "window": null,
+          "visible": false,
+          "candidateIntervals": 0,
+          "geometryPeakMagnitude": null
+        },
+        {
+          "rise": {
+            "at": "2026-09-24T14:24:32.596Z",
+            "azimuth": 319.8181
+          },
+          "culmination": {
+            "at": "2026-09-24T14:25:31.183Z",
+            "azimuth": 329.5755,
+            "elevation": 0.2804,
+            "sunlit": true,
+            "sunAltitude": 49.9856,
+            "magnitude": 3.969
+          },
+          "set": {
+            "at": "2026-09-24T14:26:29.726Z",
+            "azimuth": 339.3365
+          },
+          "window": null,
+          "visible": false,
+          "candidateIntervals": 0,
+          "geometryPeakMagnitude": null
+        },
+        {
+          "rise": {
+            "at": "2026-09-25T00:27:57.811Z",
+            "azimuth": 333.5432
+          },
+          "culmination": {
+            "at": "2026-09-25T00:32:53.316Z",
+            "azimuth": 31.2286,
+            "elevation": 12.9862,
+            "sunlit": false,
+            "sunAltitude": -22.5022,
+            "magnitude": 2.4546
+          },
+          "set": {
+            "at": "2026-09-25T00:37:49.827Z",
+            "azimuth": 88.6726
+          },
+          "window": null,
+          "visible": false,
+          "candidateIntervals": 0,
+          "geometryPeakMagnitude": null
+        },
+        {
+          "rise": {
+            "at": "2026-09-25T02:06:28.177Z",
+            "azimuth": 298.3735
+          },
+          "culmination": {
+            "at": "2026-09-25T02:12:21.529Z",
+            "azimuth": 30.4271,
+            "elevation": 88.05,
+            "sunlit": false,
+            "sunAltitude": -46.4551,
+            "magnitude": -0.0406
+          },
+          "set": {
+            "at": "2026-09-25T02:18:17.001Z",
+            "azimuth": 117.0753
+          },
+          "window": null,
+          "visible": false,
+          "candidateIntervals": 0,
+          "geometryPeakMagnitude": null
+        },
+        {
+          "rise": {
+            "at": "2026-09-25T03:46:48.059Z",
+            "azimuth": 265.1586
+          },
+          "culmination": {
+            "at": "2026-09-25T03:52:08.773Z",
+            "azimuth": 199.9566,
+            "elevation": 18.4915,
+            "sunlit": false,
+            "sunAltitude": -68.8001,
+            "magnitude": 2.5719
+          },
+          "set": {
+            "at": "2026-09-25T03:57:30.991Z",
+            "azimuth": 134.7598
+          },
+          "window": null,
+          "visible": false,
+          "candidateIntervals": 0,
+          "geometryPeakMagnitude": null
+        },
+        {
+          "rise": {
+            "at": "2026-09-25T05:28:16.310Z",
+            "azimuth": 234.4489
+          },
+          "culmination": {
+            "at": "2026-09-25T05:32:29.847Z",
+            "azimuth": 188.3959,
+            "elevation": 7.1778,
+            "sunlit": false,
+            "sunAltitude": -74.7658,
+            "magnitude": 3.6008
+          },
+          "set": {
+            "at": "2026-09-25T05:36:43.881Z",
+            "azimuth": 142.3499
+          },
+          "window": null,
+          "visible": false,
+          "candidateIntervals": 0,
+          "geometryPeakMagnitude": null
+        },
+        {
+          "rise": {
+            "at": "2026-09-25T07:09:10.147Z",
+            "azimuth": 218.2235
+          },
+          "culmination": {
+            "at": "2026-09-25T07:13:11.855Z",
+            "azimuth": 174.922,
+            "elevation": 6.2091,
+            "sunlit": false,
+            "sunAltitude": -54.4747,
+            "magnitude": 3.78
+          },
+          "set": {
+            "at": "2026-09-25T07:17:13.500Z",
+            "azimuth": 131.64
+          },
+          "window": null,
+          "visible": false,
+          "candidateIntervals": 0,
+          "geometryPeakMagnitude": null
+        },
+        {
+          "rise": {
+            "at": "2026-09-25T08:48:35.001Z",
+            "azimuth": 222.1627
+          },
+          "culmination": {
+            "at": "2026-09-25T08:53:40.753Z",
+            "azimuth": 162.6359,
+            "elevation": 13.9842,
+            "sunlit": false,
+            "sunAltitude": -30.5547,
+            "magnitude": 3.2287
+          },
+          "set": {
+            "at": "2026-09-25T08:58:45.702Z",
+            "azimuth": 103.1429
+          },
+          "window": {
+            "appears": {
+              "at": "2026-09-25T08:54:47.827Z",
+              "azimuth": 143.0436,
+              "elevation": 12.6215,
+              "reason": "sunlit"
+            },
+            "disappears": {
+              "at": "2026-09-25T08:55:10.033Z",
+              "azimuth": 137.2432,
+              "elevation": 11.6814,
+              "reason": "brightness"
+            },
+            "peak": {
+              "at": "2026-09-25T08:54:47.827Z",
+              "magnitude": 3.7675
+            }
+          },
+          "visible": true,
+          "candidateIntervals": 1,
+          "geometryPeakMagnitude": 3.7735
+        },
+        {
+          "rise": {
+            "at": "2026-09-25T10:27:41.912Z",
+            "azimuth": 237.5816
+          },
+          "culmination": {
+            "at": "2026-09-25T10:33:36.243Z",
+            "azimuth": 153.8693,
+            "elevation": 56.3287,
+            "sunlit": true,
+            "sunAltitude": -6.2222,
+            "magnitude": 1.1448
+          },
+          "set": {
+            "at": "2026-09-25T10:39:28.883Z",
+            "azimuth": 70.124
+          },
+          "window": {
+            "appears": {
+              "at": "2026-09-25T10:29:54.923Z",
+              "azimuth": 233.1777,
+              "elevation": 10.0002,
+              "reason": "elevation"
+            },
+            "disappears": {
+              "at": "2026-09-25T10:34:30.778Z",
+              "azimuth": 102.069,
+              "elevation": 42.3117,
+              "reason": "night"
+            },
+            "peak": {
+              "at": "2026-09-25T10:33:04.991Z",
+              "magnitude": 0.9245
+            }
+          },
+          "visible": true,
+          "candidateIntervals": 1,
+          "geometryPeakMagnitude": 0.9245
+        },
+        {
+          "rise": {
+            "at": "2026-09-25T12:07:41.606Z",
+            "azimuth": 262.5028
+          },
+          "culmination": {
+            "at": "2026-09-25T12:13:06.993Z",
+            "azimuth": 329.1857,
+            "elevation": 20.6738,
+            "sunlit": true,
+            "sunAltitude": 18.1109,
+            "magnitude": 2.1338
+          },
+          "set": {
+            "at": "2026-09-25T12:18:31.228Z",
+            "azimuth": 36.1611
+          },
+          "window": null,
+          "visible": false,
+          "candidateIntervals": 0,
+          "geometryPeakMagnitude": null
+        },
+        {
+          "rise": {
+            "at": "2026-09-25T13:51:20.735Z",
+            "azimuth": 315.9532
+          },
+          "culmination": {
+            "at": "2026-09-25T13:52:41.762Z",
+            "azimuth": 329.496,
+            "elevation": 0.5455,
+            "sunlit": true,
+            "sunAltitude": 42.3181,
+            "magnitude": 3.8777
+          },
+          "set": {
+            "at": "2026-09-25T13:54:02.918Z",
+            "azimuth": 343.0816
+          },
+          "window": null,
+          "visible": false,
+          "candidateIntervals": 0,
+          "geometryPeakMagnitude": null
+        },
+        {
+          "rise": {
+            "at": "2026-09-25T23:55:11.598Z",
+            "azimuth": 334.3924
+          },
+          "culmination": {
+            "at": "2026-09-26T00:00:04.318Z",
+            "azimuth": 31.2419,
+            "elevation": 12.4626,
+            "sunlit": true,
+            "sunAltitude": -14.5081,
+            "magnitude": 2.5143
+          },
+          "set": {
+            "at": "2026-09-26T00:04:57.876Z",
+            "azimuth": 87.8514
+          },
+          "window": {
+            "appears": {
+              "at": "2026-09-25T23:58:25.940Z",
+              "azimuth": 4.769,
+              "elevation": 10.0003,
+              "reason": "elevation"
+            },
+            "disappears": {
+              "at": "2026-09-26T00:00:04.909Z",
+              "azimuth": 31.4125,
+              "elevation": 12.4625,
+              "reason": "sunlit"
+            },
+            "peak": {
+              "at": "2026-09-26T00:00:04.909Z",
+              "magnitude": 2.5127
+            }
+          },
+          "visible": true,
+          "candidateIntervals": 1,
+          "geometryPeakMagnitude": 2.5132
+        },
+        {
+          "rise": {
+            "at": "2026-09-26T01:33:39.157Z",
+            "azimuth": 299.101
+          },
+          "culmination": {
+            "at": "2026-09-26T01:39:32.320Z",
+            "azimuth": 28.0641,
+            "elevation": 84.5814,
+            "sunlit": false,
+            "sunAltitude": -38.5962,
+            "magnitude": 0.0128
+          },
+          "set": {
+            "at": "2026-09-26T01:45:27.703Z",
+            "azimuth": 116.5908
+          },
+          "window": null,
+          "visible": false,
+          "candidateIntervals": 0,
+          "geometryPeakMagnitude": null
+        },
+        {
+          "rise": {
+            "at": "2026-09-26T03:13:56.977Z",
+            "azimuth": 265.875
+          },
+          "culmination": {
+            "at": "2026-09-26T03:19:18.929Z",
+            "azimuth": 200.1746,
+            "elevation": 18.9617,
+            "sunlit": false,
+            "sunAltitude": -61.7829,
+            "magnitude": 2.5912
+          },
+          "set": {
+            "at": "2026-09-26T03:24:42.356Z",
+            "azimuth": 134.4758
+          },
+          "window": null,
+          "visible": false,
+          "candidateIntervals": 0,
+          "geometryPeakMagnitude": null
+        },
+        {
+          "rise": {
+            "at": "2026-09-26T04:55:24.607Z",
+            "azimuth": 235.0062
+          },
+          "culmination": {
+            "at": "2026-09-26T04:59:39.158Z",
+            "azimuth": 188.6963,
+            "elevation": 7.2794,
+            "sunlit": false,
+            "sunAltitude": -76.707,
+            "magnitude": 3.6215
+          },
+          "set": {
+            "at": "2026-09-26T05:03:54.363Z",
+            "azimuth": 142.3592
+          },
+          "window": null,
+          "visible": false,
+          "candidateIntervals": 0,
+          "geometryPeakMagnitude": null
+        },
+        {
+          "rise": {
+            "at": "2026-09-26T06:36:20.332Z",
+            "azimuth": 218.3197
+          },
+          "culmination": {
+            "at": "2026-09-26T06:40:20.954Z",
+            "azimuth": 175.2372,
+            "elevation": 6.1417,
+            "sunlit": false,
+            "sunAltitude": -61.6538,
+            "magnitude": 3.7873
+          },
+          "set": {
+            "at": "2026-09-26T06:44:21.727Z",
+            "azimuth": 132.1297
+          },
+          "window": null,
+          "visible": false,
+          "candidateIntervals": 0,
+          "geometryPeakMagnitude": null
+        },
+        {
+          "rise": {
+            "at": "2026-09-26T08:15:46.419Z",
+            "azimuth": 221.9185
+          },
+          "culmination": {
+            "at": "2026-09-26T08:20:50.486Z",
+            "azimuth": 162.8762,
+            "elevation": 13.6595,
+            "sunlit": false,
+            "sunAltitude": -38.2814,
+            "magnitude": 3.2238
+          },
+          "set": {
+            "at": "2026-09-26T08:25:53.847Z",
+            "azimuth": 103.8556
+          },
+          "window": null,
+          "visible": false,
+          "candidateIntervals": 0,
+          "geometryPeakMagnitude": null
+        },
+        {
+          "rise": {
+            "at": "2026-09-26T09:54:52.849Z",
+            "azimuth": 237.1508
+          },
+          "culmination": {
+            "at": "2026-09-26T10:00:46.821Z",
+            "azimuth": 153.8145,
+            "elevation": 54.0087,
+            "sunlit": true,
+            "sunAltitude": -14.0683,
+            "magnitude": 1.1013
+          },
+          "set": {
+            "at": "2026-09-26T10:06:38.840Z",
+            "azimuth": 70.8497
+          },
+          "window": {
+            "appears": {
+              "at": "2026-09-26T09:58:07.966Z",
+              "azimuth": 227.7652,
+              "elevation": 17.3793,
+              "reason": "sunlit"
+            },
+            "disappears": {
+              "at": "2026-09-26T10:02:52.937Z",
+              "azimuth": 84.0591,
+              "elevation": 22.7154,
+              "reason": "brightness"
+            },
+            "peak": {
+              "at": "2026-09-26T10:00:17.647Z",
+              "magnitude": 0.9235
+            }
+          },
+          "visible": true,
+          "candidateIntervals": 1,
+          "geometryPeakMagnitude": 0.9235
+        },
+        {
+          "rise": {
+            "at": "2026-09-26T11:34:50.482Z",
+            "azimuth": 261.8221
+          },
+          "culmination": {
+            "at": "2026-09-26T11:40:17.784Z",
+            "azimuth": 329.2886,
+            "elevation": 21.4817,
+            "sunlit": true,
+            "sunAltitude": 10.2538,
+            "magnitude": 2.0111
+          },
+          "set": {
+            "at": "2026-09-26T11:45:43.722Z",
+            "azimuth": 36.9481
+          },
+          "window": null,
+          "visible": false,
+          "candidateIntervals": 0,
+          "geometryPeakMagnitude": null
+        }
+      ]
+    },
+    {
+      "key": "north-pacific-iss-3-hours",
+      "elements": "iss-2026-09-19",
+      "observer": {
+        "latitude": 34.0624,
+        "longitude": -171.4548,
+        "altitude": 0
+      },
+      "standardMagnitude": -1.8,
+      "from": "2026-07-05T07:30:00.000Z",
+      "to": "2026-07-05T10:30:00.000Z",
+      "passes": [
+        {
+          "rise": {
+            "at": "2026-07-05T08:35:33.503Z",
+            "azimuth": 225.6001
+          },
+          "culmination": {
+            "at": "2026-07-05T08:41:01.886Z",
+            "azimuth": 46.6115,
+            "elevation": 89.9529,
+            "sunlit": false,
+            "sunAltitude": -20.3566,
+            "magnitude": -3.9689
+          },
+          "set": {
+            "at": "2026-07-05T08:46:32.700Z",
+            "azimuth": 47.1462
+          },
+          "window": {
+            "appears": {
+              "at": "2026-07-05T08:37:38.376Z",
+              "azimuth": 225.8324,
+              "elevation": 10.0005,
+              "reason": "elevation"
+            },
+            "disappears": {
+              "at": "2026-07-05T08:38:58.775Z",
+              "azimuth": 225.9973,
+              "elevation": 22.0945,
+              "reason": "sunlit"
+            },
+            "peak": {
+              "at": "2026-07-05T08:38:58.775Z",
+              "magnitude": -2.0193
+            }
+          },
+          "visible": true,
+          "candidateIntervals": 2,
+          "geometryPeakMagnitude": -2.0161
+        },
+        {
+          "rise": {
+            "at": "2026-07-05T10:13:41.299Z",
+            "azimuth": 274.7968
+          },
+          "culmination": {
+            "at": "2026-07-05T10:18:19.148Z",
+            "azimuth": 332.7132,
+            "elevation": 12.2821,
+            "sunlit": true,
+            "sunAltitude": -30.6474,
+            "magnitude": 0.3017
+          },
+          "set": {
+            "at": "2026-07-05T10:22:58.184Z",
+            "azimuth": 30.7062
+          },
+          "window": {
+            "appears": {
+              "at": "2026-07-05T10:16:49.677Z",
+              "azimuth": 306.6146,
+              "elevation": 10.0001,
+              "reason": "elevation"
+            },
+            "disappears": {
+              "at": "2026-07-05T10:19:48.844Z",
+              "azimuth": 358.8412,
+              "elevation": 10.0001,
+              "reason": "elevation"
+            },
+            "peak": {
+              "at": "2026-07-05T10:16:49.677Z",
+              "magnitude": 0.1483
+            }
+          },
+          "visible": true,
+          "candidateIntervals": 1,
+          "geometryPeakMagnitude": 0.1486
+        }
+      ]
+    },
+    {
+      "key": "madrid-saramago-3-days",
+      "elements": "saramago-2026-09-18",
+      "observer": {
+        "latitude": 40.4168,
+        "longitude": -3.7038,
+        "altitude": 657
+      },
+      "standardMagnitude": 7.0,
+      "from": "2026-09-18T15:00:00.000Z",
+      "to": "2026-09-21T15:00:00.000Z",
+      "passes": [
+        {
+          "rise": {
+            "at": "2026-09-18T15:15:25.615Z",
+            "azimuth": 195.5508
+          },
+          "culmination": {
+            "at": "2026-09-18T15:20:43.749Z",
+            "azimuth": 264.6463,
+            "elevation": 22.725,
+            "sunlit": true,
+            "sunAltitude": 31.9254,
+            "magnitude": 9.9686
+          },
+          "set": {
+            "at": "2026-09-18T15:26:04.978Z",
+            "azimuth": 333.8951
+          },
+          "window": null,
+          "visible": false,
+          "candidateIntervals": 0,
+          "geometryPeakMagnitude": null
+        },
+        {
+          "rise": {
+            "at": "2026-09-19T02:44:43.138Z",
+            "azimuth": 23.1994
+          },
+          "culmination": {
+            "at": "2026-09-19T02:50:14.564Z",
+            "azimuth": 96.6888,
+            "elevation": 28.6812,
+            "sunlit": false,
+            "sunAltitude": -34.2467,
+            "magnitude": 7.1896
+          },
+          "set": {
+            "at": "2026-09-19T02:55:44.200Z",
+            "azimuth": 170.0121
+          },
+          "window": null,
+          "visible": false,
+          "candidateIntervals": 0,
+          "geometryPeakMagnitude": 9.2348
+        },
+        {
+          "rise": {
+            "at": "2026-09-19T04:18:43.644Z",
+            "azimuth": 353.987
+          },
+          "culmination": {
+            "at": "2026-09-19T04:23:47.731Z",
+            "azimuth": 292.0451,
+            "elevation": 17.3849,
+            "sunlit": false,
+            "sunAltitude": -18.641,
+            "magnitude": 6.966
+          },
+          "set": {
+            "at": "2026-09-19T04:28:51.272Z",
+            "azimuth": 229.9112
+          },
+          "window": null,
+          "visible": false,
+          "candidateIntervals": 0,
+          "geometryPeakMagnitude": 7.6362
+        },
+        {
+          "rise": {
+            "at": "2026-09-19T13:23:23.625Z",
+            "azimuth": 122.0261
+          },
+          "culmination": {
+            "at": "2026-09-19T13:28:05.514Z",
+            "azimuth": 65.898,
+            "elevation": 12.8629,
+            "sunlit": true,
+            "sunAltitude": 46.9626,
+            "magnitude": 7.5684
+          },
+          "set": {
+            "at": "2026-09-19T13:32:48.680Z",
+            "azimuth": 10.0347
+          },
+          "window": null,
+          "visible": false,
+          "candidateIntervals": 0,
+          "geometryPeakMagnitude": null
+        },
+        {
+          "rise": {
+            "at": "2026-09-19T14:55:55.071Z",
+            "azimuth": 182.8018
+          },
+          "culmination": {
+            "at": "2026-09-19T15:01:29.731Z",
+            "azimuth": 261.5895,
+            "elevation": 39.468,
+            "sunlit": true,
+            "sunAltitude": 34.706,
+            "magnitude": 9.3601
+          },
+          "set": {
+            "at": "2026-09-19T15:07:07.822Z",
+            "azimuth": 340.4918
+          },
+          "window": null,
+          "visible": false,
+          "candidateIntervals": 0,
+          "geometryPeakMagnitude": null
+        },
+        {
+          "rise": {
+            "at": "2026-09-20T02:25:50.214Z",
+            "azimuth": 30.2224
+          },
+          "culmination": {
+            "at": "2026-09-20T02:30:58.416Z",
+            "azimuth": 93.5935,
+            "elevation": 17.0204,
+            "sunlit": false,
+            "sunAltitude": -37.2904,
+            "magnitude": 8.0785
+          },
+          "set": {
+            "at": "2026-09-20T02:36:04.949Z",
+            "azimuth": 156.8496
+          },
+          "window": null,
+          "visible": false,
+          "candidateIntervals": 0,
+          "geometryPeakMagnitude": null
+        },
+        {
+          "rise": {
+            "at": "2026-09-20T03:59:18.846Z",
+            "azimuth": 0.133
+          },
+          "culmination": {
+            "at": "2026-09-20T04:04:46.284Z",
+            "azimuth": 288.8841,
+            "elevation": 28.4297,
+            "sunlit": false,
+            "sunAltitude": -22.2389,
+            "magnitude": 6.2702
+          },
+          "set": {
+            "at": "2026-09-20T04:10:13.191Z",
+            "azimuth": 217.2478
+          },
+          "window": null,
+          "visible": false,
+          "candidateIntervals": 0,
+          "geometryPeakMagnitude": 7.6259
+        },
+        {
+          "rise": {
+            "at": "2026-09-20T13:05:10.068Z",
+            "azimuth": 107.4243
+          },
+          "culmination": {
+            "at": "2026-09-20T13:09:08.967Z",
+            "azimuth": 62.4893,
+            "elevation": 7.3566,
+            "sunlit": true,
+            "sunAltitude": 48.1841,
+            "magnitude": 8.0033
+          },
+          "set": {
+            "at": "2026-09-20T13:13:08.699Z",
+            "azimuth": 17.726
+          },
+          "window": null,
+          "visible": false,
+          "candidateIntervals": 0,
+          "geometryPeakMagnitude": null
+        },
+        {
+          "rise": {
+            "at": "2026-09-20T14:36:36.547Z",
+            "azimuth": 170.556
+          },
+          "culmination": {
+            "at": "2026-09-20T14:42:17.844Z",
+            "azimuth": 258.7356,
+            "elevation": 74.1193,
+            "sunlit": true,
+            "sunAltitude": 37.3055,
+            "magnitude": 7.2012
+          },
+          "set": {
+            "at": "2026-09-20T14:48:02.396Z",
+            "azimuth": 346.5444
+          },
+          "window": null,
+          "visible": false,
+          "candidateIntervals": 0,
+          "geometryPeakMagnitude": null
+        },
+        {
+          "rise": {
+            "at": "2026-09-20T16:13:46.864Z",
+            "azimuth": 242.5315
+          },
+          "culmination": {
+            "at": "2026-09-20T16:16:41.294Z",
+            "azimuth": 273.7972,
+            "elevation": 3.0598,
+            "sunlit": true,
+            "sunAltitude": 21.4754,
+            "magnitude": 11.0791
+          },
+          "set": {
+            "at": "2026-09-20T16:19:36.821Z",
+            "azimuth": 305.1057
+          },
+          "window": null,
+          "visible": false,
+          "candidateIntervals": 0,
+          "geometryPeakMagnitude": null
+        },
+        {
+          "rise": {
+            "at": "2026-09-21T02:07:08.176Z",
+            "azimuth": 38.6063
+          },
+          "culmination": {
+            "at": "2026-09-21T02:11:38.219Z",
+            "azimuth": 90.4775,
+            "elevation": 9.7717,
+            "sunlit": false,
+            "sunAltitude": -40.154,
+            "magnitude": 8.729
+          },
+          "set": {
+            "at": "2026-09-21T02:16:06.893Z",
+            "azimuth": 142.2637
+          },
+          "window": null,
+          "visible": false,
+          "candidateIntervals": 0,
+          "geometryPeakMagnitude": null
+        },
+        {
+          "rise": {
+            "at": "2026-09-21T03:39:59.490Z",
+            "azimuth": 5.9451
+          },
+          "culmination": {
+            "at": "2026-09-21T03:45:41.214Z",
+            "azimuth": 285.556,
+            "elevation": 49.7191,
+            "sunlit": false,
+            "sunAltitude": -25.7774,
+            "magnitude": 5.4394
+          },
+          "set": {
+            "at": "2026-09-21T03:51:21.441Z",
+            "azimuth": 205.0831
+          },
+          "window": null,
+          "visible": false,
+          "candidateIntervals": 0,
+          "geometryPeakMagnitude": 7.8622
+        },
+        {
+          "rise": {
+            "at": "2026-09-21T05:15:59.569Z",
+            "azimuth": 328.2664
+          },
+          "culmination": {
+            "at": "2026-09-21T05:18:29.851Z",
+            "azimuth": 302.0186,
+            "elevation": 2.2929,
+            "sunlit": false,
+            "sunAltitude": -8.936,
+            "magnitude": 8.2494
+          },
+          "set": {
+            "at": "2026-09-21T05:21:00.410Z",
+            "azimuth": 275.6827
+          },
+          "window": null,
+          "visible": false,
+          "candidateIntervals": 0,
+          "geometryPeakMagnitude": null
+        },
+        {
+          "rise": {
+            "at": "2026-09-21T12:47:21.609Z",
+            "azimuth": 89.9187
+          },
+          "culmination": {
+            "at": "2026-09-21T12:50:14.977Z",
+            "azimuth": 58.9362,
+            "elevation": 3.2186,
+            "sunlit": true,
+            "sunAltitude": 49.0064,
+            "magnitude": 8.3631
+          },
+          "set": {
+            "at": "2026-09-21T12:53:08.733Z",
+            "azimuth": 28.0406
+          },
+          "window": null,
+          "visible": false,
+          "candidateIntervals": 0,
+          "geometryPeakMagnitude": null
+        },
+        {
+          "rise": {
+            "at": "2026-09-21T14:17:29.032Z",
+            "azimuth": 158.4822
+          },
+          "culmination": {
+            "at": "2026-09-21T14:23:08.088Z",
+            "azimuth": 75.1065,
+            "elevation": 59.5684,
+            "sunlit": true,
+            "sunAltitude": 39.6913,
+            "magnitude": 6.0465
+          },
+          "set": {
+            "at": "2026-09-21T14:28:50.133Z",
+            "azimuth": 352.357
+          },
+          "window": null,
+          "visible": false,
+          "candidateIntervals": 0,
+          "geometryPeakMagnitude": null
+        }
+      ]
+    },
+    {
+      "key": "nairobi-chandra-3-days",
+      "elements": "chandra-2026-09-21",
+      "observer": {
+        "latitude": -1.2921,
+        "longitude": 36.8219,
+        "altitude": 1795
+      },
+      "standardMagnitude": 3.2,
+      "from": "2026-09-20T00:00:00.000Z",
+      "to": "2026-09-23T00:00:00.000Z",
+      "passes": [
+        {
+          "rise": {
+            "at": "2026-09-20T09:30:32.745Z",
+            "azimuth": 51.9792
+          },
+          "culmination": {
+            "at": "2026-09-20T15:48:15.539Z",
+            "azimuth": 355.9094,
+            "elevation": 55.0338,
+            "sunlit": true,
+            "sunAltitude": -5.5635,
+            "magnitude": 13.7047
+          },
+          "set": {
+            "at": "2026-09-20T21:45:31.015Z",
+            "azimuth": 295.1118
+          },
+          "window": null,
+          "visible": false,
+          "candidateIntervals": 0,
+          "geometryPeakMagnitude": 13.5057
+        },
+        {
+          "rise": {
+            "at": "2026-09-22T07:56:14.443Z",
+            "azimuth": 38.3104
+          },
+          "culmination": {
+            "at": "2026-09-22T14:29:23.670Z",
+            "azimuth": 356.6539,
+            "elevation": 40.1789,
+            "sunlit": true,
+            "sunAltitude": 13.9915,
+            "magnitude": 14.0785
+          },
+          "set": {
+            "at": "2026-09-22T20:25:31.304Z",
+            "azimuth": 311.8616
+          },
+          "window": null,
+          "visible": false,
+          "candidateIntervals": 0,
+          "geometryPeakMagnitude": 14.1069
+        }
+      ]
+    },
+    {
+      "key": "madrid-terra-3-days",
+      "elements": "terra-2026-09-19",
+      "observer": {
+        "latitude": 40.4168,
+        "longitude": -3.7038,
+        "altitude": 657
+      },
+      "standardMagnitude": 2.7,
+      "from": "2026-09-20T00:00:00.000Z",
+      "to": "2026-09-23T00:00:00.000Z",
+      "passes": [
+        {
+          "rise": {
+            "at": "2026-09-20T08:28:56.934Z",
+            "azimuth": 23.2993
+          },
+          "culmination": {
+            "at": "2026-09-20T08:35:34.764Z",
+            "azimuth": 95.9352,
+            "elevation": 30.0082,
+            "sunlit": true,
+            "sunAltitude": 27.8921,
+            "magnitude": 6.5622
+          },
+          "set": {
+            "at": "2026-09-20T08:42:08.815Z",
+            "azimuth": 168.3722
+          },
+          "window": null,
+          "visible": false,
+          "candidateIntervals": 0,
+          "geometryPeakMagnitude": null
+        },
+        {
+          "rise": {
+            "at": "2026-09-20T10:06:31.702Z",
+            "azimuth": 0.146
+          },
+          "culmination": {
+            "at": "2026-09-20T10:12:58.303Z",
+            "azimuth": 291.9569,
+            "elevation": 27.0446,
+            "sunlit": true,
+            "sunAltitude": 42.7049,
+            "magnitude": 3.0326
+          },
+          "set": {
+            "at": "2026-09-20T10:19:22.973Z",
+            "azimuth": 223.3872
+          },
+          "window": null,
+          "visible": false,
+          "candidateIntervals": 0,
+          "geometryPeakMagnitude": null
+        },
+        {
+          "rise": {
+            "at": "2026-09-20T11:48:35.131Z",
+            "azimuth": 313.0399
+          },
+          "culmination": {
+            "at": "2026-09-20T11:48:55.341Z",
+            "azimuth": 310.1733,
+            "elevation": 0.0296,
+            "sunlit": true,
+            "sunAltitude": 50.3144,
+            "magnitude": 4.7104
+          },
+          "set": {
+            "at": "2026-09-20T11:49:15.671Z",
+            "azimuth": 307.2888
+          },
+          "window": null,
+          "visible": false,
+          "candidateIntervals": 0,
+          "geometryPeakMagnitude": null
+        },
+        {
+          "rise": {
+            "at": "2026-09-20T18:01:42.345Z",
+            "azimuth": 63.71
+          },
+          "culmination": {
+            "at": "2026-09-20T18:03:13.687Z",
+            "azimuth": 50.6447,
+            "elevation": 0.6185,
+            "sunlit": true,
+            "sunAltitude": 1.5034,
+            "magnitude": 4.4603
+          },
+          "set": {
+            "at": "2026-09-20T18:04:45.107Z",
+            "azimuth": 37.5894
+          },
+          "window": null,
+          "visible": false,
+          "candidateIntervals": 0,
+          "geometryPeakMagnitude": null
+        },
+        {
+          "rise": {
+            "at": "2026-09-20T19:32:45.925Z",
+            "azimuth": 138.9089
+          },
+          "culmination": {
+            "at": "2026-09-20T19:39:14.496Z",
+            "azimuth": 68.7315,
+            "elevation": 29.4259,
+            "sunlit": true,
+            "sunAltitude": -16.5676,
+            "magnitude": 2.5342
+          },
+          "set": {
+            "at": "2026-09-20T19:45:45.441Z",
+            "azimuth": 358.9178
+          },
+          "window": {
+            "appears": {
+              "at": "2026-09-20T19:38:21.014Z",
+              "azimuth": 89.2775,
+              "elevation": 27.3976,
+              "reason": "sunlit"
+            },
+            "disappears": {
+              "at": "2026-09-20T19:42:27.420Z",
+              "azimuth": 15.2976,
+              "elevation": 14.3185,
+              "reason": "brightness"
+            },
+            "peak": {
+              "at": "2026-09-20T19:38:51.615Z",
+              "magnitude": 2.5096
+            }
+          },
+          "visible": true,
+          "candidateIntervals": 1,
+          "geometryPeakMagnitude": 2.5096
+        },
+        {
+          "rise": {
+            "at": "2026-09-20T21:10:12.056Z",
+            "azimuth": 194.041
+          },
+          "culmination": {
+            "at": "2026-09-20T21:16:41.362Z",
+            "azimuth": 264.6749,
+            "elevation": 27.3532,
+            "sunlit": false,
+            "sunAltitude": -33.2836,
+            "magnitude": 3.6772
+          },
+          "set": {
+            "at": "2026-09-20T21:23:14.864Z",
+            "azimuth": 335.5849
+          },
+          "window": {
+            "appears": {
+              "at": "2026-09-20T21:16:58.288Z",
+              "azimuth": 271.0095,
+              "elevation": 27.1726,
+              "reason": "sunlit"
+            },
+            "disappears": {
+              "at": "2026-09-20T21:17:30.360Z",
+              "azimuth": 282.5057,
+              "elevation": 25.9063,
+              "reason": "brightness"
+            },
+            "peak": {
+              "at": "2026-09-20T21:16:58.288Z",
+              "magnitude": 3.7714
+            }
+          },
+          "visible": true,
+          "candidateIntervals": 1,
+          "geometryPeakMagnitude": 3.7725
+        },
+        {
+          "rise": {
+            "at": "2026-09-21T07:31:39.228Z",
+            "azimuth": 44.7052
+          },
+          "culmination": {
+            "at": "2026-09-21T07:36:11.251Z",
+            "azimuth": 86.3058,
+            "elevation": 6.4101,
+            "sunlit": true,
+            "sunAltitude": 17.0543,
+            "magnitude": 7.6247
+          },
+          "set": {
+            "at": "2026-09-21T07:40:41.275Z",
+            "azimuth": 127.8188
+          },
+          "window": null,
+          "visible": false,
+          "candidateIntervals": 0,
+          "geometryPeakMagnitude": null
+        },
+        {
+          "rise": {
+            "at": "2026-09-21T09:07:26.853Z",
+            "azimuth": 13.58
+          },
+          "culmination": {
+            "at": "2026-09-21T09:14:25.139Z",
+            "azimuth": 102.3381,
+            "elevation": 77.282,
+            "sunlit": true,
+            "sunAltitude": 34.0856,
+            "magnitude": 3.3264
+          },
+          "set": {
+            "at": "2026-09-21T09:21:19.566Z",
+            "azimuth": 190.5265
+          },
+          "window": null,
+          "visible": false,
+          "candidateIntervals": 0,
+          "geometryPeakMagnitude": null
+        },
+        {
+          "rise": {
+            "at": "2026-09-21T10:45:53.261Z",
+            "azimuth": 350.0983
+          },
+          "culmination": {
+            "at": "2026-09-21T10:51:15.409Z",
+            "azimuth": 298.7889,
+            "elevation": 11.7307,
+            "sunlit": true,
+            "sunAltitude": 46.5459,
+            "magnitude": 3.8558
+          },
+          "set": {
+            "at": "2026-09-21T10:56:36.901Z",
+            "azimuth": 247.2071
+          },
+          "window": null,
+          "visible": false,
+          "candidateIntervals": 0,
+          "geometryPeakMagnitude": null
+        },
+        {
+          "rise": {
+            "at": "2026-09-21T18:36:28.935Z",
+            "azimuth": 101.7747
+          },
+          "culmination": {
+            "at": "2026-09-21T18:41:10.166Z",
+            "azimuth": 58.2463,
+            "elevation": 7.7688,
+            "sunlit": true,
+            "sunAltitude": -6.0346,
+            "magnitude": 3.8905
+          },
+          "set": {
+            "at": "2026-09-21T18:45:51.731Z",
+            "azimuth": 14.9552
+          },
+          "window": null,
+          "visible": false,
+          "candidateIntervals": 0,
+          "geometryPeakMagnitude": null
+        },
+        {
+          "rise": {
+            "at": "2026-09-21T20:10:53.451Z",
+            "azimuth": 160.6914
+          },
+          "culmination": {
+            "at": "2026-09-21T20:17:46.462Z",
+            "azimuth": 75.119,
+            "elevation": 73.1013,
+            "sunlit": true,
+            "sunAltitude": -23.8292,
+            "magnitude": 1.4866
+          },
+          "set": {
+            "at": "2026-09-21T20:24:43.082Z",
+            "azimuth": 350.0664
+          },
+          "window": {
+            "appears": {
+              "at": "2026-09-21T20:17:40.049Z",
+              "azimuth": 88.172,
+              "elevation": 72.6783,
+              "reason": "sunlit"
+            },
+            "disappears": {
+              "at": "2026-09-21T20:20:56.637Z",
+              "azimuth": 353.9105,
+              "elevation": 20.6501,
+              "reason": "brightness"
+            },
+            "peak": {
+              "at": "2026-09-21T20:17:40.049Z",
+              "magnitude": 1.4666
+            }
+          },
+          "visible": true,
+          "candidateIntervals": 1,
+          "geometryPeakMagnitude": 1.4682
+        },
+        {
+          "rise": {
+            "at": "2026-09-21T21:50:26.440Z",
+            "azimuth": 219.5766
+          },
+          "culmination": {
+            "at": "2026-09-21T21:55:46.377Z",
+            "azimuth": 271.0262,
+            "elevation": 10.7237,
+            "sunlit": false,
+            "sunAltitude": -39.3296,
+            "magnitude": 4.907
+          },
+          "set": {
+            "at": "2026-09-21T22:01:09.474Z",
+            "azimuth": 322.6486
+          },
+          "window": null,
+          "visible": false,
+          "candidateIntervals": 0,
+          "geometryPeakMagnitude": 5.0332
+        },
+        {
+          "rise": {
+            "at": "2026-09-22T08:09:10.115Z",
+            "azimuth": 29.1281
+          },
+          "culmination": {
+            "at": "2026-09-22T08:15:22.033Z",
+            "azimuth": 92.7403,
+            "elevation": 19.0849,
+            "sunlit": true,
+            "sunAltitude": 23.9337,
+            "magnitude": 6.9736
+          },
+          "set": {
+            "at": "2026-09-22T08:21:30.357Z",
+            "azimuth": 156.1625
+          },
+          "window": null,
+          "visible": false,
+          "candidateIntervals": 0,
+          "geometryPeakMagnitude": null
+        },
+        {
+          "rise": {
+            "at": "2026-09-22T09:46:16.923Z",
+            "azimuth": 4.7316
+          },
+          "culmination": {
+            "at": "2026-09-22T09:53:02.207Z",
+            "azimuth": 288.6859,
+            "elevation": 41.9144,
+            "sunlit": true,
+            "sunAltitude": 39.5293,
+            "magnitude": 2.5692
+          },
+          "set": {
+            "at": "2026-09-22T09:59:45.075Z",
+            "azimuth": 212.0847
+          },
+          "window": null,
+          "visible": false,
+          "candidateIntervals": 0,
+          "geometryPeakMagnitude": null
+        },
+        {
+          "rise": {
+            "at": "2026-09-22T11:25:59.953Z",
+            "azimuth": 335.2301
+          },
+          "culmination": {
+            "at": "2026-09-22T11:29:18.098Z",
+            "azimuth": 306.1371,
+            "elevation": 3.2232,
+            "sunlit": true,
+            "sunAltitude": 48.8561,
+            "magnitude": 4.4625
+          },
+          "set": {
+            "at": "2026-09-22T11:32:36.111Z",
+            "azimuth": 276.9615
+          },
+          "window": null,
+          "visible": false,
+          "candidateIntervals": 0,
+          "geometryPeakMagnitude": null
+        },
+        {
+          "rise": {
+            "at": "2026-09-22T19:13:17.962Z",
+            "azimuth": 127.2268
+          },
+          "culmination": {
+            "at": "2026-09-22T19:19:21.505Z",
+            "azimuth": 65.246,
+            "elevation": 19.3877,
+            "sunlit": true,
+            "sunAltitude": -13.5449,
+            "magnitude": 3.0788
+          },
+          "set": {
+            "at": "2026-09-22T19:25:26.310Z",
+            "azimuth": 3.7123
+          },
+          "window": {
+            "appears": {
+              "at": "2026-09-22T19:18:21.834Z",
+              "azimuth": 81.9471,
+              "elevation": 18.1786,
+              "reason": "sunlit"
+            },
+            "disappears": {
+              "at": "2026-09-22T19:22:14.007Z",
+              "azimuth": 24.3433,
+              "elevation": 11.7258,
+              "reason": "brightness"
+            },
+            "peak": {
+              "at": "2026-09-22T19:18:51.716Z",
+              "magnitude": 3.0537
+            }
+          },
+          "visible": true,
+          "candidateIntervals": 1,
+          "geometryPeakMagnitude": 3.0537
+        },
+        {
+          "rise": {
+            "at": "2026-09-22T20:49:45.137Z",
+            "azimuth": 182.4111
+          },
+          "culmination": {
+            "at": "2026-09-22T20:56:31.293Z",
+            "azimuth": 261.454,
+            "elevation": 43.6185,
+            "sunlit": false,
+            "sunAltitude": -30.7733,
+            "magnitude": 2.7561
+          },
+          "set": {
+            "at": "2026-09-22T21:03:21.824Z",
+            "azimuth": 340.8611
+          },
+          "window": {
+            "appears": {
+              "at": "2026-09-22T20:56:59.111Z",
+              "azimuth": 278.411,
+              "elevation": 42.2418,
+              "reason": "sunlit"
+            },
+            "disappears": {
+              "at": "2026-09-22T20:58:32.534Z",
+              "azimuth": 314.8054,
+              "elevation": 27.7855,
+              "reason": "brightness"
+            },
+            "peak": {
+              "at": "2026-09-22T20:56:59.111Z",
+              "magnitude": 2.9553
+            }
+          },
+          "visible": true,
+          "candidateIntervals": 1,
+          "geometryPeakMagnitude": 2.9587
+        },
+        {
+          "rise": {
+            "at": "2026-09-22T22:32:50.858Z",
+            "azimuth": 258.096
+          },
+          "culmination": {
+            "at": "2026-09-22T22:35:06.252Z",
+            "azimuth": 277.7002,
+            "elevation": 1.2895,
+            "sunlit": false,
+            "sunAltitude": -44.4438,
+            "magnitude": 5.6792
+          },
+          "set": {
+            "at": "2026-09-22T22:37:22.223Z",
+            "azimuth": 297.3311
+          },
+          "window": null,
+          "visible": false,
+          "candidateIntervals": 0,
+          "geometryPeakMagnitude": null
+        }
+      ]
+    },
+    {
+      "key": "nairobi-navstar-54-12-hours",
+      "elements": "navstar-54-2026-09-19",
+      "observer": {
+        "latitude": -1.2921,
+        "longitude": 36.8219,
+        "altitude": 1795
+      },
+      "standardMagnitude": null,
+      "from": "2026-09-19T09:00:00.000Z",
+      "to": "2026-09-19T21:00:00.000Z",
+      "passes": [
+        {
+          "rise": {
+            "at": "2026-09-19T09:42:45.644Z",
+            "azimuth": 251.7261
+          },
+          "culmination": {
+            "at": "2026-09-19T14:53:00.659Z",
+            "azimuth": 95.0114,
+            "elevation": 74.7169,
+            "sunlit": true,
+            "sunAltitude": 8.3253,
+            "magnitude": null
+          },
+          "set": {
+            "at": "2026-09-19T18:12:45.346Z",
+            "azimuth": 32.6144
+          },
+          "window": null,
+          "visible": false,
+          "candidateIntervals": 0,
+          "geometryPeakMagnitude": null
+        }
+      ]
+    },
+    {
+      "key": "nairobi-vanguard-1-1-day",
+      "elements": "vanguard-1-2026-09-19",
+      "observer": {
+        "latitude": -1.2921,
+        "longitude": 36.8219,
+        "altitude": 1795
+      },
+      "standardMagnitude": 10.2,
+      "from": "2026-09-19T14:00:00.000Z",
+      "to": "2026-09-20T14:00:00.000Z",
+      "passes": [
+        {
+          "rise": {
+            "at": "2026-09-19T14:39:56.391Z",
+            "azimuth": 214.3746
+          },
+          "culmination": {
+            "at": "2026-09-19T14:42:20.120Z",
+            "azimuth": 193.8993,
+            "elevation": 1.2217,
+            "sunlit": true,
+            "sunAltitude": 10.9931,
+            "magnitude": 12.9245
+          },
+          "set": {
+            "at": "2026-09-19T14:44:55.770Z",
+            "azimuth": 174.2452
+          },
+          "window": null,
+          "visible": false,
+          "candidateIntervals": 0,
+          "geometryPeakMagnitude": null
+        },
+        {
+          "rise": {
+            "at": "2026-09-19T17:03:47.881Z",
+            "azimuth": 188.1043
+          },
+          "culmination": {
+            "at": "2026-09-19T17:08:23.984Z",
+            "azimuth": 162.585,
+            "elevation": 2.4525,
+            "sunlit": true,
+            "sunAltitude": -25.514,
+            "magnitude": 13.166
+          },
+          "set": {
+            "at": "2026-09-19T17:13:59.543Z",
+            "azimuth": 138.8661
+          },
+          "window": null,
+          "visible": false,
+          "candidateIntervals": 0,
+          "geometryPeakMagnitude": null
+        },
+        {
+          "rise": {
+            "at": "2026-09-19T19:21:32.166Z",
+            "azimuth": 207.5604
+          },
+          "culmination": {
+            "at": "2026-09-19T19:34:34.963Z",
+            "azimuth": 143.9689,
+            "elevation": 22.7178,
+            "sunlit": false,
+            "sunAltitude": -62.0565,
+            "magnitude": 12.8547
+          },
+          "set": {
+            "at": "2026-09-19T19:55:24.824Z",
+            "azimuth": 86.6425
+          },
+          "window": null,
+          "visible": false,
+          "candidateIntervals": 0,
+          "geometryPeakMagnitude": null
+        },
+        {
+          "rise": {
+            "at": "2026-09-19T21:40:42.736Z",
+            "azimuth": 225.3488
+          },
+          "culmination": {
+            "at": "2026-09-19T21:59:36.880Z",
+            "azimuth": 140.4885,
+            "elevation": 67.0056,
+            "sunlit": false,
+            "sunAltitude": -81.6864,
+            "magnitude": 12.2429
+          },
+          "set": {
+            "at": "2026-09-19T22:28:08.909Z",
+            "azimuth": 59.5022
+          },
+          "window": null,
+          "visible": false,
+          "candidateIntervals": 0,
+          "geometryPeakMagnitude": 13.5645
+        },
+        {
+          "rise": {
+            "at": "2026-09-20T00:02:56.681Z",
+            "azimuth": 245.6802
+          },
+          "culmination": {
+            "at": "2026-09-20T00:26:43.284Z",
+            "azimuth": 323.6027,
+            "elevation": 57.8312,
+            "sunlit": false,
+            "sunAltitude": -44.9112,
+            "magnitude": 12.6518
+          },
+          "set": {
+            "at": "2026-09-20T00:53:39.054Z",
+            "azimuth": 43.7732
+          },
+          "window": null,
+          "visible": false,
+          "candidateIntervals": 0,
+          "geometryPeakMagnitude": 12.6549
+        },
+        {
+          "rise": {
+            "at": "2026-09-20T02:32:20.249Z",
+            "azimuth": 273.0548
+          },
+          "culmination": {
+            "at": "2026-09-20T02:56:20.555Z",
+            "azimuth": 332.2783,
+            "elevation": 24.3922,
+            "sunlit": true,
+            "sunAltitude": -7.5088,
+            "magnitude": 13.5013
+          },
+          "set": {
+            "at": "2026-09-20T03:16:18.495Z",
+            "azimuth": 34.9071
+          },
+          "window": null,
+          "visible": false,
+          "candidateIntervals": 0,
+          "geometryPeakMagnitude": 13.4443
+        },
+        {
+          "rise": {
+            "at": "2026-09-20T05:12:05.897Z",
+            "azimuth": 308.8435
+          },
+          "culmination": {
+            "at": "2026-09-20T05:28:04.683Z",
+            "azimuth": 351.5058,
+            "elevation": 10.1012,
+            "sunlit": true,
+            "sunAltitude": 30.414,
+            "magnitude": 13.8549
+          },
+          "set": {
+            "at": "2026-09-20T05:39:22.371Z",
+            "azimuth": 37.4322
+          },
+          "window": null,
+          "visible": false,
+          "candidateIntervals": 0,
+          "geometryPeakMagnitude": null
+        },
+        {
+          "rise": {
+            "at": "2026-09-20T07:44:55.920Z",
+            "azimuth": 325.9591
+          },
+          "culmination": {
+            "at": "2026-09-20T07:56:33.486Z",
+            "azimuth": 13.359,
+            "elevation": 12.3915,
+            "sunlit": true,
+            "sunAltitude": 67.4678,
+            "magnitude": 13.3103
+          },
+          "set": {
+            "at": "2026-09-20T08:04:12.267Z",
+            "azimuth": 66.7267
+          },
+          "window": null,
+          "visible": false,
+          "candidateIntervals": 0,
+          "geometryPeakMagnitude": null
+        },
+        {
+          "rise": {
+            "at": "2026-09-20T10:09:06.642Z",
+            "azimuth": 314.594
+          },
+          "culmination": {
+            "at": "2026-09-20T10:19:44.847Z",
+            "azimuth": 31.8077,
+            "elevation": 45.7616,
+            "sunlit": true,
+            "sunAltitude": 76.4114,
+            "magnitude": 11.565
+          },
+          "set": {
+            "at": "2026-09-20T10:26:27.390Z",
+            "azimuth": 112.5996
+          },
+          "window": null,
+          "visible": false,
+          "candidateIntervals": 0,
+          "geometryPeakMagnitude": null
+        },
+        {
+          "rise": {
+            "at": "2026-09-20T12:33:10.999Z",
+            "azimuth": 276.8059
+          },
+          "culmination": {
+            "at": "2026-09-20T12:39:38.808Z",
+            "azimuth": 215.2369,
+            "elevation": 16.261,
+            "sunlit": true,
+            "sunAltitude": 41.5713,
+            "magnitude": 12.258
+          },
+          "set": {
+            "at": "2026-09-20T12:45:40.390Z",
+            "azimuth": 152.1131
+          },
+          "window": null,
+          "visible": false,
+          "candidateIntervals": 0,
+          "geometryPeakMagnitude": null
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+# The Oracle's Python environment. uv.lock beside this file pins every
+# package to an exact version and hash, and .python-version the interpreter,
+# so that a regeneration on another machine writes the same fixtures. From
+# the Engine's folder, `pnpm fixtures` (or `npm run fixtures`) runs every
+# script through `uv run --locked`.
+[project]
+name = "orbinauts-engine-oracle"
+version = "0.0.0"
+description = "Skyfield scripts that write the fixtures the Engine's tests compare against."
+requires-python = "==3.12.*"
+dependencies = [
+  "numpy",
+  "skyfield",
+]
+
+[tool.uv]
+package = false

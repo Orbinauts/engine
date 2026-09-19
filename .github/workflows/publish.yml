@@ -1,0 +1,185 @@
+name: Publish
+
+# A release is the commit on main whose package.json carries a version the
+# commit before it did not: that version is tagged `v<version>`, released on
+# GitHub with its CHANGELOG entry, published to npm and then installed from
+# the registry into an empty directory to compute a Position. Any other push
+# to main stops at the first job.
+#
+# npm is reached through trusted publishing: the registry trusts this
+# workflow file of this repository and takes the job's OIDC token in place
+# of a secret, and attaches the provenance statement to the version. No
+# token exists anywhere.
+
+on:
+  push:
+    branches: [main]
+
+# Never two releases at once, and never one cancelled half way.
+concurrency:
+  group: publish
+  cancel-in-progress: false
+
+permissions:
+  contents: read
+
+jobs:
+  version:
+    runs-on: ubuntu-latest
+    outputs:
+      changed: ${{ steps.compare.outputs.changed }}
+      version: ${{ steps.compare.outputs.version }}
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          # The pushed commit and its parent: the version is compared with the parent's.
+          fetch-depth: 2
+          persist-credentials: false
+      - id: compare
+        run: |
+          set -euo pipefail
+          version=$(node -p 'require("./package.json").version')
+          # The first commit has no parent, and a parent may have no manifest: both count as a new version.
+          previous=""
+          if git cat-file -e HEAD^:package.json 2>/dev/null; then
+            previous=$(git show HEAD^:package.json | node -p 'JSON.parse(require("node:fs").readFileSync(0, "utf8")).version')
+          fi
+          echo "version=$version" >> "$GITHUB_OUTPUT"
+          if [ "$version" = "$previous" ]; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            echo "version $version unchanged; nothing to publish"
+          else
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+            echo "version ${previous:-(none)} -> $version"
+          fi
+
+  publish:
+    needs: version
+    if: needs.version.outputs.changed == 'true'
+    runs-on: ubuntu-latest
+    permissions:
+      # The tag and the release.
+      contents: write
+      # The OIDC token npm's trusted publishing exchanges for a one-time publish credential.
+      id-token: write
+    env:
+      VERSION: ${{ needs.version.outputs.version }}
+    # Each step checks whether its work is already done, so a failed run can be rerun from the start.
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@820762786026740c76f36085b0efc47a31fe5020 # v7.0.0
+        with:
+          node-version: 24
+          registry-url: https://registry.npmjs.org
+      # Trusted publishing needs npm 11.5.1 or later.
+      - run: npm install --global npm@11
+      - run: npm install --no-audit --no-fund
+      - run: npm run typecheck
+      - run: npm test
+      - name: Read the CHANGELOG entry
+        run: |
+          set -euo pipefail
+          # The lines under the version's heading (`## [<version>] - <date>`), up to the next heading of that level
+          # or the link definitions Keep a Changelog puts at the foot of the file.
+          awk -v version="$VERSION" '
+            /^## / { if (inside) exit; inside = index($0, "## [" version "]") == 1; next }
+            /^\[.*\]: / { if (inside) exit }
+            inside
+          ' CHANGELOG.md > "$RUNNER_TEMP/notes.md"
+          if ! grep -q '[^[:space:]]' "$RUNNER_TEMP/notes.md"; then
+            echo "::error file=CHANGELOG.md::no entry for $VERSION"
+            exit 1
+          fi
+          cat "$RUNNER_TEMP/notes.md"
+      - name: Tag and release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          if gh release view "v$VERSION" > /dev/null 2>&1; then
+            echo "release v$VERSION exists"
+          else
+            gh release create "v$VERSION" --target "$GITHUB_SHA" --title "v$VERSION" --notes-file "$RUNNER_TEMP/notes.md"
+          fi
+      - name: Publish to npm
+        run: |
+          set -euo pipefail
+          name=$(node -p 'require("./package.json").name')
+          if [ "$(npm view "$name@$VERSION" version 2>/dev/null)" = "$VERSION" ]; then
+            echo "$name@$VERSION is on the registry"
+          else
+            # `prepack` builds dist first.
+            npm publish --provenance --access public
+          fi
+
+  smoke:
+    needs: [version, publish]
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        node: [22, 24]
+    env:
+      VERSION: ${{ needs.version.outputs.version }}
+    steps:
+      - uses: actions/setup-node@820762786026740c76f36085b0efc47a31fe5020 # v7.0.0
+        with:
+          node-version: ${{ matrix.node }}
+      - name: Install the published version into an empty directory
+        working-directory: ${{ runner.temp }}
+        run: |
+          set -euo pipefail
+          mkdir smoke
+          cd smoke
+          echo '{ "name": "smoke", "private": true, "type": "module" }' > package.json
+          # The registry can take a moment to serve a version it has just accepted.
+          for attempt in 1 2 3 4 5 6 7 8 9 10; do
+            if npm install --no-audit --no-fund "@orbinauts/engine@$VERSION"; then exit 0; fi
+            echo "attempt $attempt failed; waiting"
+            sleep 30
+          done
+          exit 1
+      - name: Check the version's provenance and signatures
+        working-directory: ${{ runner.temp }}/smoke
+        run: |
+          set -euo pipefail
+          predicate=$(npm view "@orbinauts/engine@$VERSION" dist.attestations.provenance.predicateType)
+          echo "provenance: $predicate"
+          case "$predicate" in https://slsa.dev/provenance/*) ;; *) echo "::error::no provenance on $VERSION"; exit 1 ;; esac
+          npm audit signatures
+      - name: Compute an ISS Position
+        working-directory: ${{ runner.temp }}/smoke
+        run: |
+          set -euo pipefail
+          cat > smoke.js <<'SCRIPT'
+          import { propagate, readElements } from "@orbinauts/engine";
+
+          // The ISS as CelesTrak served it on 2026-09-19.
+          const elements = readElements({
+            OBJECT_NAME: "ISS (ZARYA)",
+            OBJECT_ID: "1998-067A",
+            EPOCH: "2026-09-19T07:17:41.839008",
+            MEAN_MOTION: 15.49175317,
+            ECCENTRICITY: 0.0004815,
+            INCLINATION: 51.6308,
+            RA_OF_ASC_NODE: 194.2901,
+            ARG_OF_PERICENTER: 157.3949,
+            MEAN_ANOMALY: 202.7252,
+            EPHEMERIS_TYPE: 0,
+            CLASSIFICATION_TYPE: "U",
+            NORAD_CAT_ID: 25544,
+            ELEMENT_SET_NO: 999,
+            REV_AT_EPOCH: 58634,
+            BSTAR: 0.00012007,
+            MEAN_MOTION_DOT: 6.211e-5,
+            MEAN_MOTION_DDOT: 0,
+          });
+          const position = propagate(elements, new Date("2026-09-19T08:00:00Z"));
+          console.log(JSON.stringify(position));
+          const plausible =
+            Math.abs(position.latitude) <= 51.7 && Math.abs(position.longitude) <= 180 && position.altitude > 380 && position.altitude < 440;
+          if (!plausible) throw new Error("the ISS Position is not where the ISS flies");
+          SCRIPT
+          node smoke.js

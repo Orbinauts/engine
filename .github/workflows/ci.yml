@@ -1,0 +1,41 @@
+name: CI
+
+on:
+  push:
+    # A release branch is checked on its push too: the first release has no main to open a pull request
+    # against, and becomes main only once this check is green on its commit.
+    branches: [main, "release/**"]
+  # Any other branch under review is checked by its pull request alone.
+  pull_request:
+
+# A new push supersedes the run of the last one: the older run is cancelled rather than finished for nobody.
+concurrency:
+  group: ci-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    name: check (Node ${{ matrix.node }})
+    runs-on: ubuntu-latest
+    strategy:
+      # One Node version failing says nothing about the other: both finish.
+      fail-fast: false
+      matrix:
+        # The oldest Node the manifest's engines field accepts, and the current LTS.
+        node: [22, 24]
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@820762786026740c76f36085b0efc47a31fe5020 # v7.0.0
+        with:
+          node-version: ${{ matrix.node }}
+      # No lockfile: the dependencies resolve from the manifest's ranges, as they do in a consumer's project.
+      - run: npm install --no-audit --no-fund
+      - run: npm run typecheck
+      - run: npm test
+      # The build and the tarball it makes, without publishing: `prepack` builds, `--dry-run` lists what would ship.
+      - run: npm pack --dry-run
